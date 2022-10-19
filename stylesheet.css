@@ -1,7 +1,12 @@
 #welcomePicture {
-    align-self: center;
+    align-content: center;
 }
 
-a {
+a a:visited{
     color: black;
+    
+}
+
+#paragrafas {
+    color: blueviolet;
 }
