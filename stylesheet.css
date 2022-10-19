@@ -1,32 +1,36 @@
 html {
-    background: url(https://alexjonesavi.github.io/CAdarbai/pamokunuotraukos/siteBackground.jpg) no-repeat center center fixed; 
+    background: url(https://alexjonesavi.github.io/CAdarbai/pamokunuotraukos/siteBackground.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
-#spotifyPlaylist {
-    text-align: left;
+.row {
+    display: flex;
+    justify-content: center;
 }
 
-#welcomePicture {
-    text-align: center;
+.column {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 a,a:visited {
-    color: darkcyan;
+    color: rgb(255, 95, 0);
     text-decoration: none;
     font-family: "Roboto Condensed", sans-serif;
     font-size: 20px;
 }
 
-ul {
+.mainPageList {
     color: crimson;
+    text-align: center;
+    list-style-position: inside;
 }
 
 #paragrafas {
-    color:aqua;
-    background-color:black;
+    color: aqua;
+    background-color: black;
     text-align: center;
 }
