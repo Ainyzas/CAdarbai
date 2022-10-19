@@ -6,6 +6,10 @@ html {
     background-size: cover;
 }
 
+#spotifyPlaylist {
+    text-align: left;
+}
+
 #welcomePicture {
     text-align: center;
 }
