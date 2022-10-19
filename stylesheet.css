@@ -3,8 +3,14 @@
 }
 
 a, a:visited {
-    color: black;
+    color:darkcyan;
     text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+
+ul {
+    color:crimson;
 }
 
 #paragrafas {
