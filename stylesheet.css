@@ -1,20 +1,24 @@
+html {
+    background-color:gold;
+}
+
 #welcomePicture {
     text-align: center;
 }
 
-a, a:visited {
-    color:darkcyan;
+a,a:visited {
+    color: darkcyan;
     text-decoration: none;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     font-size: 20px;
 }
 
 ul {
-    color:crimson;
+    color: crimson;
 }
 
 #paragrafas {
-    color: blueviolet;
-    background-color: brown;
+    color:aqua;
+    background-color:black;
     text-align: center;
 }
