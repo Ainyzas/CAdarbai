@@ -16,7 +16,8 @@ html {
     margin-right: 20px;
 }
 
-a, a:visited {
+a,
+a:visited {
     color: rgb(255, 95, 0);
     text-decoration: none;
     font-family: "Roboto Condensed", sans-serif;

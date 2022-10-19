@@ -1,0 +1,22 @@
+html {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+}
+
+#lorem {
+    font-style: italic;
+    font-weight: 800;
+}
+.bold {
+    font-weight: bold;
+}
+#loremp {
+    color: green;
+    text-decoration-line: underline;
+}
+#pagalba {
+    font-style: italic;
+}
+#uz {
+    color: blue;
+}
