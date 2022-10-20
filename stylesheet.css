@@ -66,3 +66,11 @@ a:visited {
 .listItem {
     text-align: left;
 }
+
+#mePicture {
+    text-align: center;
+}
+
+#me {
+    box-shadow: 15px, 25px;
+}
