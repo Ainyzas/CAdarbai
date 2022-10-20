@@ -6,7 +6,30 @@ html {
     background-size: cover;
 }
 
+#navigation {
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    border-style: dashed;
+    border-color: rgb(146, 1, 1);
+}
+
+.navBar {
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-style: dotted;
+    border-color: rgb(190, 0, 0);
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
 .row {
+    padding-top: 10px;
     display: flex;
     justify-content: center;
 }
@@ -18,14 +41,14 @@ html {
 
 a,
 a:visited {
-    color: rgb(255, 95, 0);
+    color: rgb(87, 152, 250);
     text-decoration: none;
     font-family: "Roboto Condensed", sans-serif;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .mainPageList {
-    color: crimson;
+    color: rgb(221, 224, 35);
     text-align: center;
     list-style-position: inside;
 }
@@ -34,4 +57,12 @@ a:visited {
     color: aqua;
     background-color: black;
     text-align: center;
+}
+
+.about {
+    text-align: center;
+}
+
+.listItem {
+    text-align: left;
 }
