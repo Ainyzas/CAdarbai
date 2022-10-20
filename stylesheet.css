@@ -60,6 +60,9 @@ a:visited {
 }
 
 .about {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 24px;
+    color: crimson;
     text-align: center;
 }
 
