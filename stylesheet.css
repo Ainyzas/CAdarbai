@@ -61,8 +61,8 @@ a:visited {
 
 .about {
     font-family: "Roboto Condensed", sans-serif;
-    font-size: 24px;
-    color: rgb(255, 208, 0);
+    font-size: 22px;
+    color: rgb(214, 175, 0);
     text-align: center;
 }
 
@@ -75,7 +75,6 @@ a:visited {
 }
 
 #me {
-    width: 250;
     box-shadow: 15px, 25px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -83,5 +82,5 @@ a:visited {
 
 #aboutHeader {
     text-align: center;
-    color: rgb(255, 166, 0);
+    color: rgb(184, 119, 0);
 }
