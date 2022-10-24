@@ -1,24 +1,42 @@
 html {
-    background-color: darkviolet;
+    background-color: rgb(73, 0, 104);
 }
 
 .poster {
-    color: orangered;
+    color: rgb(175, 47, 0);
     border-style: dotted;
     border-color: orange;
-    border: 2px;
     text-align: center;
-    text-shadow: 2px;
+
+    margin-top: 100px;
+    margin-left: 700px;
+    margin-right: 700px;
 }
 
 #CSSHeader {
     color: orange;
 }
 
-#loremp {
-    text-align: left;
+#loremp{
+    text-align: initial;
+    text-shadow: 3px 2px black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 25px;
+}
+
+#letter {
+    font-size: 28px;
+    font-weight: bold;
 }
 
 #image {
     border-radius: 25px;
+    border-top-color: white;
+    border-left-color: blue;
+    border-right-color: black;
+    border-bottom-color: green;
+    border-style: solid;
+    border-width: 15px;
 }
+
