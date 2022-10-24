@@ -12,10 +12,9 @@ header {
     text-decoration: none;
     color: white;
     padding: 10px;
-
 }
 
-#microimg{
+#microimg {
     text-align: center;
 }
 
@@ -37,5 +36,5 @@ h2 {
     background-color: green;
     color: white;
     margin-top: 0;
-    padding: 10px;    
+    padding: 10px;
 }
