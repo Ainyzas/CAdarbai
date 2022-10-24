@@ -1,0 +1,41 @@
+header {
+    text-align: center;
+    color: rgb(153, 152, 152);
+}
+
+#navigation {
+    background-color: green;
+    padding: 10px;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+
+}
+
+#microimg{
+    text-align: center;
+}
+
+#image {
+    width: 100%;
+}
+
+#aboutSec {
+    padding: 20px;
+    background-color: rgb(207, 207, 207);
+}
+
+#contactSec {
+    padding: 20px;
+    background-color: rgb(177, 241, 177);
+}
+
+h2 {
+    background-color: green;
+    color: white;
+    margin-top: 0;
+    padding: 10px;    
+}
