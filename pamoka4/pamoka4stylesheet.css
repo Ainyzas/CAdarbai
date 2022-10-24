@@ -1,0 +1,19 @@
+html {
+    background-color: darkviolet;
+}
+
+#poster {
+    color: orangered;
+    border-style: dotted;
+    border-color: orange;
+    text-align: center;
+    text-shadow: 2px;
+}
+
+#CSSHeader {
+    color: orange;
+}
+
+#loremp {
+    text-align: left;
+}
