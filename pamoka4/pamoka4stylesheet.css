@@ -6,6 +6,7 @@ html {
     color: orangered;
     border-style: dotted;
     border-color: orange;
+    border: 2px;
     text-align: center;
     text-shadow: 2px;
 }
