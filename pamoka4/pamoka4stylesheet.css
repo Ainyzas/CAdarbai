@@ -2,7 +2,7 @@ html {
     background-color: darkviolet;
 }
 
-#poster {
+.poster {
     color: orangered;
     border-style: dotted;
     border-color: orange;
