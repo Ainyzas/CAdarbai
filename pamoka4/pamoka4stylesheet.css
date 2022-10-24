@@ -18,3 +18,7 @@ html {
 #loremp {
     text-align: left;
 }
+
+#image {
+    border-radius: 25px;
+}
