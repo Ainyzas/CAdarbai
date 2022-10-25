@@ -8,10 +8,7 @@ html {
     border-style: dotted;
     border-color: orange;
     text-align: center;
-
-    margin-top: 100px;
-    margin-left: 700px;
-    margin-right: 700px;
+    margin: 5% 20%;
 }
 
 #CSSHeader {
@@ -33,6 +30,7 @@ html {
 }
 
 #image {
+    width: 85%;
     border-radius: 25px;
     border-top-color: white;
     border-left-color: blue;
