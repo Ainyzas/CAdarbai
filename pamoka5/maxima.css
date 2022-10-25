@@ -1,23 +1,93 @@
 html {
-    background-color: rgb(194, 194, 194);
+    background-color: rgb(223, 223, 223);
+}
+
+body {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+header, section {
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2), 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    
+}
+
+header h1 {
+    font-size: 38px;
+
+}
+
+#malogo {
+    padding-top: 30px;
+    width: 40%;
+
 }
 
 #pagrindinis {
+    text-align: center;
+    background-color: white;
+    padding-bottom: 5px;
+}
 
+#navigation {
+    padding: 10px;
+    padding-bottom: 20px;
+    margin: 10px;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
 }
 
 #apie {
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: white;
+}
 
+#apie p {
+    text-align: justify;
+}
+
+#apieimg {
+    width: 100%;
 }
 
 #produktai {
+    text-align: center;
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
 
+.gaminiai {
+    max-height: 150px;
+    object-fit: cover;
+    width: 20%;
+}
+
+span {
+    font-weight: bold;
 }
 
 #contact {
+    margin-top: 20px;
+    padding: 25px;
+    background-color: white;
+}
 
+#map {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
 }
 
 #footer {
-
+    text-align: center;
 }
