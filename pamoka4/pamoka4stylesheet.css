@@ -19,7 +19,8 @@ html {
 }
 
 #loremp {
-    text-align: initial;
+    text-align: justify;
+    letter-spacing: 2px;
     text-shadow: 3px 2px black;
     padding-left: 10px;
     padding-right: 10px;
