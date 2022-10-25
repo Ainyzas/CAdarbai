@@ -4,6 +4,7 @@ html {
 
 .poster {
     color: rgb(175, 47, 0);
+    background-color: rgba(0, 0, 0, 0.2);
     border-style: dotted;
     border-color: orange;
     text-align: center;
