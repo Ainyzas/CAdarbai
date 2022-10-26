@@ -6,9 +6,9 @@ header{
     text-align: center;
 }
 
-header h1, nav {
-    margin-left: 10%;
-    margin-right: 10%;
+h1, nav, table {
+    margin-left: 20%;
+    margin-right: 20%;
     color: white;
 }
 
@@ -18,5 +18,44 @@ nav {
 
 nav a {
     text-decoration: none;
+    color: white;
+}
+
+#aboutsec {
+
+}
+
+#tablesec {
+    background-color: rgb(0, 0, 131);
+
+}
+
+main table {
+    border-collapse: collapse;
+    width: 40rem;
+}
+
+main table th, main table td {
+    color: white;
+    padding: 7px;
+    border: 2px solid red;
+    font-size: 18px;
+}
+
+main table td {
+    text-align: right;
+    font-weight: bold;
+}
+
+.vardas {
+    text-align: center;
+}
+
+#contactsec {
+
+}
+
+footer {
+    background-color: rgb(214, 194, 13);
     color: white;
 }
