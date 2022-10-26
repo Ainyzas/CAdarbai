@@ -1,0 +1,43 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+aside {
+    color: white;
+    float: left;
+    height: 100vw;
+    width: 15%;
+    background-color: #24282c;
+    padding: 10px;
+}
+
+aside h1 {
+    font-size: 38px;
+}
+
+aside ul,
+aside li {
+    padding-right: 20%;
+    padding-bottom: 5%;
+    width: 80%;
+}
+
+aside div {
+    border-radius: 50px;
+    border: 1px solid rgb(78, 78, 78);
+    margin: 8%;
+}
+
+.no-dot {
+    list-style: none;
+}
+
+.dot {
+    list-style: disc;
+}
+
+.square {
+    list-style: square;
+}
