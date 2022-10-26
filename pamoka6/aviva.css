@@ -1,4 +1,9 @@
-header{
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
     background-color: rgb(5, 0, 32);
 }
 
@@ -6,36 +11,64 @@ header{
     text-align: center;
 }
 
-h1, nav, table {
+h1,
+nav,
+table,
+p,
+button {
     margin-left: 20%;
     margin-right: 20%;
     color: white;
 }
 
 nav {
+    text-align: right;
+    padding: 20px;
     background-color: rgb(214, 194, 13);
 }
 
 nav a {
+    margin: 15px;
     text-decoration: none;
     color: white;
 }
 
-#aboutsec {
+#aboutsec h1,
+#aboutsec p {
+    color: black;
+}
 
+#aboutsec p {
+    text-align: justify;
+}
+
+#button {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+button {
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 10px;
+    text-decoration: underline;
+    padding: 6px;
+    width: 7%;
+    font-weight: 600;
 }
 
 #tablesec {
     background-color: rgb(0, 0, 131);
-
+    padding: 15px;
 }
 
 main table {
     border-collapse: collapse;
-    width: 40rem;
+    width: 60%;
 }
 
-main table th, main table td {
+main table th,
+main table td {
     color: white;
     padding: 7px;
     border: 2px solid red;
@@ -49,13 +82,30 @@ main table td {
 
 .vardas {
     text-align: center;
+    font-weight: normal;
 }
 
-#contactsec {
+#contactsec h1 {
+    color: black;
+}
 
+ul {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#contactsec div {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#contactsec a {
+    color: blue;
 }
 
 footer {
     background-color: rgb(214, 194, 13);
     color: white;
+    text-align: center;
+    padding: 1px;
 }
