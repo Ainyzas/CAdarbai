@@ -1,0 +1,44 @@
+table {
+    border-collapse: collapse;
+}
+
+#table2, #table3 {
+    border: 2px solid red;
+}
+
+#table2 td, #table2 th{
+    border: 1px solid black;
+}
+
+#table3 td, #table3 th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+td,
+th {
+    border: 2px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+#orange {
+    background-color: orange;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#green {
+    background-color: green;
+}
+
+.white-font {
+    color: white;
+}
+
+#madona {
+    background-color: orange;
+    color: white;
+}

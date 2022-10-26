@@ -1,14 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!-- <link rel="stylesheet" href="https://alexjonesavi.github.io/CAdarbai/pamoka6/pamoka6stylesheet.css" /> -->
-    <link rel="stylesheet" href="/pamoka6/pamoka6stylesheet.css" />
-    <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="60" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tables ect.</title>
-</head>
-<body>
-    <a href="https://alexjonesavi.github.io/CAdarbai">Gryžti į pagrindinį puslapį</a>
-</body>
+    <head>
+        <!-- <link rel="stylesheet" href="https://alexjonesavi.github.io/CAdarbai/pamoka6/pamoka6stylesheet.css" /> -->
+        <link rel="stylesheet" href="/pamoka6/pamoka6stylesheet.css" />
+        <meta charset="UTF-8" />
+        <meta http-equiv="refresh" content="60" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tables ect.</title>
+    </head>
+    <body>
+        <a href="https://alexjonesavi.github.io/CAdarbai">Gryžti į pagrindinį puslapį</a>
+        <p></p>
+        <header>
+            <table>
+                <tr>
+                    <th>Vardas</th>
+                    <td>Jonas Žirmūnas</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">Telefono numeris</th>
+                    <td>5575489844</td>
+                </tr>
+                <tr>
+                    <td>5575489844</td>
+                </tr>
+                <tr>
+                    <th rowspan="3">Mėgstamiausios spalvos</th>
+                    <td class="white-font" id="orange">Oranžinė</td>
+                </tr>
+                <tr>
+                    <td class="white-font" id="blue">Melyna</td>
+                </tr>
+                <tr>
+                    <td class="white-font" id="green">Žalia</td>
+                </tr>
+            </table>
+        </header>
+
+        <br />
+
+        <main>
+            <table id="table2">
+                <thead>
+                    <th>Vardas</th>
+                    <th>Pavarde</th>
+                    <th>Amzius</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bill</td>
+                        <td>Gates</td>
+                        <td>66</td>
+                    </tr>
+                    <tr>
+                        <td>John</td>
+                        <td>Carpenter</td>
+                        <td>72</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br />
+
+            <!-- naujas table -->
+
+            <table id="table3">
+                <thead>
+                    <th>Vardas</th>
+                    <th>Pavarde</th>
+                    <th>Amzius</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="madona" colspan="2">Madona</td>
+                        <td>63</td>
+                    </tr>
+                    <tr>
+                        <td>Paul</td>
+                        <td>Giamatti</td>
+                        <td rowspan="2">53</td>
+                    </tr>
+                    <tr>
+                        <td>Vin</td>
+                        <td>Diesel</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </body>
 </html>
