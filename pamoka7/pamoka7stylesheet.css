@@ -2,13 +2,18 @@ html,
 body {
     margin: 0;
     padding: 0;
+    height: 100%;
+}
+
+main {
+    margin-left: 325px;
 }
 
 aside {
     color: white;
     float: left;
-    height: 100vw;
     width: 15%;
+    height: 110vw;
     background-color: #24282c;
     padding: 10px;
 }
@@ -24,10 +29,50 @@ aside li {
     width: 80%;
 }
 
+aside span {
+    color: grey;
+}
+
+.marked {
+    color: white;
+    font-weight: bold;
+}
+
 aside div {
     border-radius: 50px;
     border: 1px solid rgb(78, 78, 78);
     margin: 8%;
+}
+
+main nav {
+    text-align: right;
+    font-size: 20px;
+    margin-right: 100px;
+    margin-top: 15px;
+}
+
+main nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: grey;
+}
+
+#selected {
+    color: rgb(47, 178, 253);
+}
+
+main p {
+    color: rgba(128, 128, 128, 0.815);
+}
+
+main span {
+    font-weight: bolder;
+    color: black;
+}
+
+main div {
+    border-radius: 50px;
+    border: 1px solid rgba(78, 78, 78, 0.363);
 }
 
 .no-dot {
@@ -36,8 +81,15 @@ aside div {
 
 .dot {
     list-style: disc;
+    color: red;
 }
 
 .square {
     list-style: square;
+    color: red;
+}
+
+.genre {
+    color: rgba(128, 128, 128, 0.815);
+    padding-bottom: 50px;
 }

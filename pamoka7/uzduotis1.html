@@ -2,7 +2,6 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="https://alexjonesavi.github.io/CAdarbai/pamoka7/pamoka7stylesheet.css" />
-        <!-- <link rel="stylesheet" href="/pamoka7/pamoka7stylesheet.css" /> -->
         <meta charset="UTF-8" />
         <meta http-equiv="refresh" content="60" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,11 +12,11 @@
         <aside>
             <h1>Favourite movies</h1>
             <ul class="no-dot">
-                <li class="dot">Action / Adventure</li>
+                <li class="dot"><span class="marked">Action / Adventure</span></li>
                 <ul class="square">
-                    <li>Latest</li>
-                    <li>Favourite</li>
-                    <li>Coming soon</li>
+                    <li><span>Latest</span></li>
+                    <li><span class="marked">Favourite</span></li>
+                    <li><span>Coming soon</span></li>
                 </ul>
                 <li>Animation</li>
                 <li>Comedy</li>
@@ -38,47 +37,48 @@
 
         <main>
             <nav>
-                <a href="">Rating</a>
-                <a href="">Newest</a>
-                <a href="">Oldest</a>
+                <a id="selected" href="#">Rating</a>
+                <a href="#">Newest</a>
+                <a href="#">Oldest</a>
             </nav>
-            <p><span>FAVOURITE TRAILERS</span> ACTION / ADVENTURE</p>
+            <p><span>FAVOURITE TRAILERS</span> &emsp;&emsp;ACTION / ADVENTURE</p>
+            <div></div>
             <ul class="no-dot">
                 <li>
                     <iframe
-                        width="560"
-                        height="315"
+                        width="70%"
+                        height="500"
                         src="https://www.youtube.com/embed/EXeTwQWrcwY"
                         title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                     <h3>The Dark Knight</h3>
-                    <p>Action, Crime, Drama</p>
+                    <p class="genre">Action, Crime, Drama</p>
                 </li>
                 <li>
                     <iframe
-                        width="560"
-                        height="315"
+                        width="70%"
+                        height="500"
                         src="https://www.youtube.com/embed/r5X-hFf6Bwo"
                         title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                     <h3>The Lord Of The Rings: The Return Of The King</h3>
-                    <p>Action, Adventure, Drama</p>
+                    <p class="genre">Action, Adventure, Drama</p>
                 </li>
                 <li>
                     <iframe
-                        width="560"
-                        height="315"
+                        width="70%"
+                        height="500"
                         src="https://www.youtube.com/embed/i_mAWKyfj6c"
                         title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                     <h3>Halloween Ends</h3>
-                    <p>Horror, Action, Drama</p>
+                    <p class="genre">Horror, Action, Drama</p>
                 </li>
             </ul>
         </main>
