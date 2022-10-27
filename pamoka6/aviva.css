@@ -47,14 +47,13 @@ nav a {
     padding-bottom: 10px;
 }
 
-button {
+#aboutsec a {
     background-color: red;
-    border: 2px solid red;
     border-radius: 10px;
     text-decoration: underline;
-    padding: 6px;
-    width: 7%;
-    font-weight: 600;
+    color: white;
+    padding: 8px 30px;
+    font-weight: 500;
 }
 
 #tablesec {
