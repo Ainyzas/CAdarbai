@@ -42,12 +42,13 @@ label {
 }
 
 fieldset {
-    display:flex;
+    display: flex;
     width: 40%;
     border: none;
 }
 
-fieldset label, fieldset input {
+fieldset label,
+fieldset input {
     margin: 0;
     padding: 0;
     margin-left: 20px;
