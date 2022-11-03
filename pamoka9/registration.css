@@ -57,6 +57,7 @@ fieldset input {
 
 button {
     background-color: rgb(63, 63, 63);
+    border: none;
     color: white;
     width: 25%;
     margin: 10px;
