@@ -10,23 +10,35 @@
     </head>
     <body>
         <a href="https://alexjonesavi.github.io/CAdarbai">Gryžti į pagrindinį puslapį</a>
-        <form action="#" method="post" target="_blank" autocomplete="on">
+        <form action="https://formspree.io/f/mayklkpo" method="post" target="_blank" autocomplete="on">
             <h1>Contact Us!</h1>
             <label for="name-input">Name:</label>
-            <br>
-            <input type="text" id="name-input" name="name" placeholder="Jonas" required min="3" max="20">
-            <br>
+            <br />
+            <input type="text" id="name-input" name="name" placeholder="Jonas" required min="3" max="20" />
+            <br />
+            <label>Gender:</label>
+            <br />
+            <fieldset>
+                <input type="radio" id="male" name="gender" value="male" />
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" />
+                <label for="female">Female</label>
+                <input type="radio" id="idiot" name="gender" value="idiot" />
+                <label for="idiot">Idiot</label>
+            </fieldset>
+            <br />
             <label for="email-input">Email:</label>
-            <br>
-            <input type="email" id="email-input" name="email" required>
-            <br>
+            <br />
+            <input type="email" id="email-input" name="email" placeholder="JonasJ@gmail.com" required />
+            <br />
             <label for="number-input">Reference Number:</label>
-            <br>
-            <input type="number" id="number-input" name="reference-number">
-            <br>
+            <br />
+            <input type="number" id="number-input" name="reference-number" placeholder="1234" />
+            <br />
             <textarea placeholder="Your message goes here..." id="message-input" name="message"></textarea>
-            <br>
-
+            <br />
+            <button type="submit">Send!</button>
+            <button type="reset">Reset Details!</button>
         </form>
     </body>
 </html>
