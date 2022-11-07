@@ -24,14 +24,6 @@ input:required:invalid {
     border: 2px solid red
 }
 
-#card-number:in-range {
-    border: 2px solid green;
-}
-
-#card-number:out-of-range {
-    border: 2px solid red;
-}
-
 input::selection {
     border: none;
 }
