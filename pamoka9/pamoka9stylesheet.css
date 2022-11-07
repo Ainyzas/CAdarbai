@@ -18,11 +18,13 @@ input[type='radio'] {
 }
 
 input:required:valid {
-    border: 3px solid green;
+    border: 2px solid green;
+    box-shadow: none;
 }
 
 input:required:invalid {
-    border: 3px solid red
+    border: 2px solid red;
+    box-shadow: none;
 }
 
 input::selection {
