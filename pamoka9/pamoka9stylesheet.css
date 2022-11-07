@@ -28,7 +28,7 @@ input:required:invalid {
 }
 
 input:focus {
-    border: 1px solid yellow;
+    border: 5px solid yellow;
 }
 
 fieldset {
