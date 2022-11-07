@@ -1,0 +1,73 @@
+html, body {
+    background-color: rgb(47, 53, 79);
+    text-align: center;
+    font-weight: bold;
+}
+
+img {
+    width: 40%;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+span {
+    color: rgb(67, 189, 230);
+}
+
+h1 {
+    color: yellow;
+}
+
+h4 {
+    margin-top: 5px;
+    color: rgb(253, 108, 108);
+}
+
+table {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: left;
+    color: rgba(250, 235, 215, 0.726);
+}
+
+tbody {
+    background-color: rgb(66, 74, 110);
+}
+
+tbody tr:nth-child(2n) {
+    background-color: rgb(55, 64, 99)
+}
+
+tbody tr td:first-child {
+    color: rgb(228, 94, 94);
+}
+
+tbody tr td:last-child span{
+    display: inline-block;
+    padding: 5px;
+    width: 17px;
+    text-align: center;
+    border-radius: 3px;
+    color: white;
+
+}
+
+.draw {
+    background-color: red;
+}
+
+.win {
+    background-color: rgb(0, 182, 0);
+}
+
+.lose {
+    background-color: rgb(221, 206, 0);
+}
+
+td, th{
+    padding: 7px;
+
+}
