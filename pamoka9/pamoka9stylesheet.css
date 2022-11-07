@@ -27,10 +27,6 @@ input:required:invalid {
     border: 2px solid red;
 }
 
-input:focus {
-    border: 5px solid yellow;
-}
-
 fieldset {
     margin-left: auto;
     text-align: left;
