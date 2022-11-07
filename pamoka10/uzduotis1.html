@@ -13,20 +13,20 @@
 
         <main>
             <form action="#">
-                <h1></h1>
-                <h3></h3>
-                <label for=""></label>
-                <input type="text">
-                <label for=""></label>
-                <input type="text">
-                <label for=""></label>
-                <input type="text">
-                <label for=""></label>
-                <input type="text">
-                <label for=""></label>
-                <input type="text">
-                <input type="checkbox" name="" id="">
-                <button></button>
+                <h1>Register to Fancy Form</h1>
+                <h4>All fields are required unless marked as "optional"</h3>
+                <label for="id">Your unique ID that you can't change</label>
+                <input type="text" id="id" readonly>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+                <label for="age">Age:</label>
+                <input type="number" id="age" required>
+                <textarea>Tell us a little about yourself (optional):</textarea>
+                <input type="checkbox" name="agreement" id="agreement">
+                <label for="agreement">I agree with the Terms & Conditions</label>
+                <button>Register</button>
             </form>
         </main>
     </body>
