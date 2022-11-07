@@ -25,8 +25,8 @@ input:required:invalid {
     border: 2px solid red;
 }
 
-input::selection {
-    border: none;
+input:focus {
+    border: 1px solid yellow;
 }
 
 fieldset {
