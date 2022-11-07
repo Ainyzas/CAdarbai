@@ -16,6 +16,22 @@ input[type='radio'] {
     width: auto;
 }
 
+input:valid {
+    border: 2px solid green;
+}
+
+input:invalid {
+    border: 2px solid red
+}
+
+#card-number:in-range {
+    border: 2px solid green;
+}
+
+#card-number:out-of-range {
+    border: 2px solid red;
+}
+
 fieldset {
     margin-left: auto;
     text-align: left;
@@ -34,5 +50,10 @@ button {
     display: block;
     margin: auto;
     margin-top: 20px;
+    background-color: aqua;
 
+}
+
+button:hover {
+    background-color: rgb(0, 139, 139);
 }
