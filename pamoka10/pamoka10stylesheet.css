@@ -1,13 +1,12 @@
-html, body {
+html,
+body {
     width: 50%;
     text-align: center;
     margin-left: 25%;
 }
 
-form {
-}
-
-label, input {
+label,
+input {
     display: block;
     margin: auto;
     width: 50%;
