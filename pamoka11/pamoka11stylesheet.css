@@ -1,11 +1,11 @@
 html, body {
-    background-color: rgba(209, 209, 209, 0.644);
+    background-color: rgba(209, 209, 209);
 }
 
 #main {
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
     background-color: white;
 }
 
@@ -31,34 +31,25 @@ nav a {
 
 main {
     display: flex;
-    flex-flow: row nowrap;
     text-align: justify;
     padding: 15px;
 }
 
 #about {
-    display: flex;
-    flex-flow: column nowrap;
     margin: 12px;
 }
 
 #actions {
-    display: flex;
-    flex-flow: column nowrap;
     margin: 12px;
 }
 
 #actions img {
     max-width: 50%;
+    padding: 0 10px 0 0;
     float: left;
 }
 
-p {
-    margin-top: 0;
-}
-
 button {
-    align-self: flex-end;
     border: none;
     background-color: rgb(142, 207, 43);
     color: white;
