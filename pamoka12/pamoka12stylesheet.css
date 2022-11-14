@@ -1,0 +1,105 @@
+#main {
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+#first-row {
+    display: flex;
+    padding: 30px;
+}
+
+#second-row {
+    display: flex;
+    padding: 30px;
+}
+
+#third-row {
+    display: flex;
+    padding: 30px;
+}
+
+.dice {
+    display: flex;
+    background: lightgrey;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 8px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.dot {
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    background: black;
+}
+
+.one {
+    align-items: center;
+    justify-content: center;
+}
+
+.two {
+    justify-content: space-between;
+}
+
+.two .dot:nth-of-type(2) {
+    align-self: flex-end;
+}
+
+.three {
+    justify-content: space-between;
+}
+.three .dot:nth-of-type(2) {
+    align-self: center;
+}
+.three .dot:nth-of-type(3) {
+    align-self: flex-end;
+}
+
+#center-dice {
+    width: 250px;
+    height: 250px;
+}
+
+#center-dice .dot {
+    width: 50px;
+    height: 50px;
+}
+
+.row {
+    display: flex;
+}
+
+.four {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.four .row {
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.five {
+    justify-content: space-between;
+}
+.five .row {
+    flex-direction: column;
+    justify-content: space-between;
+}
+.five .row:nth-of-type(2) {
+    align-self: center;
+}
+
+.six {
+    justify-content: space-between;
+}
+.six .row {
+    flex-direction: column;
+    justify-content: space-between;
+}
