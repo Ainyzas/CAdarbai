@@ -1,4 +1,5 @@
-#flexbox, #grid {
+#flexbox,
+#grid {
     width: 50%;
     padding-bottom: 20px;
     margin: auto;
@@ -8,7 +9,8 @@
     display: flex;
 }
 
-#left-flex , #right-flex #top + #bottom {
+#left-flex,
+#right-flex #top + #bottom {
     display: flex;
 }
 
