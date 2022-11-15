@@ -1,8 +1,5 @@
 html {
-    background: url(https://alexjonesavi.github.io/CAdarbai/pamokunuotraukos/siteBackground.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background: url(https://alexjonesavi.github.io/CAdarbai/pamokunuotraukos/siteBackground.jpg);
     background-size: cover;
 }
 
@@ -29,13 +26,13 @@ nav {
 }
 
 .row {
-    padding-top: 10px;
+    padding: 10px;
+    box-sizing: border-box;
     display: flex;
-    justify-content: center;
 }
 
 .column {
-    width: 35%;
+    width: 33%;
     padding: 2rem;
 }
 
