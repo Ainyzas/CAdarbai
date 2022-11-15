@@ -1,0 +1,61 @@
+#flexbox,
+#grid {
+    width: 50%;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+#flexbox {
+    display: flex;
+}
+
+#left-flex,
+#right-flex #top + #bottom {
+    display: flex;
+}
+
+#left-flex {
+    width: 33.33%;
+}
+
+#right-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#right-flex #top {
+    width: 66.66%;
+}
+
+#right-flex #bottom {
+    width: 100%;
+}
+
+.flex-text {
+    background-color: rgb(255, 119, 70);
+    text-align: center;
+    width: 100%;
+    padding: 6rem;
+    margin: 0.5rem;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.grid-item {
+    background-color: rgb(188, 235, 235);
+    text-align: center;
+    padding: 3rem;
+}
+
+.grid-item.one {
+    grid-row: span 2;
+}
+
+.grid-item.two {
+    grid-column: span 2;
+}

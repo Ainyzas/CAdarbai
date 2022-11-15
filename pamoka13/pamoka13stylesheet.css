@@ -1,0 +1,26 @@
+#grid-container {
+    margin-left: 25%;
+    padding: 25px;
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    border: 2px solid black;
+}
+
+.grid-item {
+    padding: 10px;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+.grid-item:nth-child(odd) {
+    background-color: gainsboro;
+}
+
+.grid-item.two {
+    border: 2px solid red;
+    grid-row: 2;
+    grid-column: 3 / span 3;
+}

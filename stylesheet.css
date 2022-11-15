@@ -35,8 +35,8 @@ nav {
 }
 
 .column {
-    margin-left: 75px;
-    margin-right: 75px;
+    width: 35%;
+    padding: 2rem;
 }
 
 a,
