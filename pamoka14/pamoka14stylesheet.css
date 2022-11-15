@@ -8,7 +8,8 @@ html {
     }
 }
 
-.container, .fluid-container {
+.container,
+.fluid-container {
     max-width: 750px;
     border: 2px solid red;
     display: flex;
@@ -16,7 +17,8 @@ html {
     margin-top: 2rem;
 }
 
-.cell, .fluid {
+.cell,
+.fluid {
     background-color: red;
     border: 1px solid black;
     width: 100px;
