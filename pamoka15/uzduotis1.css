@@ -59,4 +59,24 @@ p {
 
 @media screen and (min-width: 768px) {
 
+    img {
+        width: 8%;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    header img + nav {
+        width: 50%;
+    }
+
+    header nav, header nav a {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
 }
