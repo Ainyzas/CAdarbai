@@ -120,11 +120,11 @@ h4 {
         align-items: center;
     }
 
-    .phone-mail {
+    .for-contacting {
         display: flex;
     }
 
-    .phone-mail div:nth-child(2) {
+    .for-contacting div:nth-child(2) {
         margin-left: 2rem;
     }
 
