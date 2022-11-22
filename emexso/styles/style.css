@@ -1,0 +1,14 @@
+:root {
+  --brand-main-color: #f56347;
+  --main-background-color: #fbd7b5;
+  --main-font-color: #0c2461;
+  --paragraph-font-color: #778791;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
