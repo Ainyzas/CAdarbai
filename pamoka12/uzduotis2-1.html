@@ -10,9 +10,9 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
         <link rel="stylesheet" href="https://alexjonesavi.github.io/CAdarbai/pamoka12/svetaine.css" />
         <meta charset="UTF-8" />
-        <meta name="description" content="To-Do task website" />
+        <meta name="description" content="To-Do task-edit website">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>To-Do Svetaine</title>
+        <title>Edit Task</title>
     </head>
     <body>
         <a href="https://alexjonesavi.github.io/CAdarbai">Gryžti į pagrindinį puslapį</a>
@@ -41,43 +41,24 @@
             </div>
         </nav>
         <main>
-            <form class="form task-form">
-                <h4>Your tasks</h4>
+            <form class="form single-task-form">
+                <h4>Edit Task</h4>
                 <div class="form-control">
-                    <input type="text" name="name" class="form-input task-input" placeholder="e.g. wash dishes" />
-                    <button type="submit" class="btn submit-btn">Add</button>
+                    <label class="form-label">Task ID</label>
+                    <p class="task-edit-id">123456789</p>
                 </div>
-                <small class="form-alert">there was an error</small>
+                <div class="form-control">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" name="name" class="form-input task-edit-name" value="Take out trashes" />
+                </div>
+                <div class="form-control">
+                    <label for="completed" class="form-label">completed</label>
+                    <input type="checkbox" name="completed" class="task-edit-completed" />
+                </div>
+                <button type="submit" class="btn btn-block task-edit-btn" name="submit edit changes">edit</button>
+                <div class="form-alert text-small">there was an error</div>
             </form>
-
-            <section class="tasks-container">
-                <div class="tasks">
-                    <div class="single-task">
-                        <h5><i class="far fa-check-circle"></i>Take out trashes</h5>
-                        <div class="task-links">
-                            <a href="uzduotis2-1.html" class="edit-link" title="edit link">
-                                <i class="fas fa-edit"></i>
-                            </a>
-                            <button type="button" class="delete-btn" data-id="123" name="delete task">
-                                <i class="fas fa-trash"></i>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="single-task task-completed">
-                        <h5>
-                            <span><i class="far fa-check-circle"></i></span>Walk the dog
-                        </h5>
-                        <div class="task-links">
-                            <a href="uzduotis2-1.html" class="edit-link" title="edit link">
-                                <i class="fas fa-edit"></i>
-                            </a>
-                            <button type="button" class="delete-btn" data-id="123" name="delete task">
-                                <i class="fas fa-trash"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <a href="uzduotis2.html" class="btn back-link" title="go back to previous page link">back to tasks</a>
         </main>
     </body>
 </html>
