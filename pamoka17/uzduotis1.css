@@ -1,0 +1,139 @@
+/* site CSS */
+
+:root {
+    --secondary-font-color: #645cff;
+    --main-font-color: #0f172a;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* Header and Footer CSS */
+
+header ul {
+    display: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 span {
+    color: var(--secondary-font-color);
+}
+
+.socials a {
+    text-decoration: none;
+    padding: 0.3rem;
+}
+
+.socials i {
+    background-color: var(--secondary-font-color);
+    color: #222222;
+    padding: 1px 5px;
+    font-size: 20px;
+}
+
+.socials a:nth-child(1) i {
+    border-radius: 50%;
+    padding-bottom: 0;
+}
+
+.socials a:nth-child(2) i {
+    color: var(--secondary-font-color);
+    background-color: #222222;
+}
+
+header .socials a:nth-child(2) i {
+    background-color: white;
+}
+
+.socials a:nth-child(3) i {
+    border-radius: 15%;
+    padding-top: 0.15rem;
+}
+
+header .socials i {
+    color: white;
+}
+
+footer {
+    background-color:#222222;
+    padding: 4rem 0;
+}
+
+.footer-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-navigation ul {
+    list-style-type: none;
+}
+
+.footer-navigation ul li {
+    color: white;
+    display: inline;
+}
+
+.footer-navigation ul a {
+    text-decoration: none;
+    font-weight: 500;
+    padding: 1rem;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+
+footer section, footer p {
+    padding: 1rem;
+}
+
+/* Body CSS */
+
+.welcome {
+    background-color: var(--secondary-font-color);
+    padding: 20rem 0rem;
+}
+
+.welcome div {
+    color: white;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.welcome h1 {
+    font-size: 62px;
+    font-weight: 400;
+}
+
+.welcome p {
+    line-height: 2rem;
+    padding-bottom: 1rem;
+}
+
+.welcome button {
+    
+}
+
+main h1 {
+    font-weight: 400;
+    text-transform: uppercase;
+}
