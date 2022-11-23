@@ -83,17 +83,18 @@ footer {
 
 .footer-navigation ul {
     list-style-type: none;
+    padding: 0;
 }
 
 .footer-navigation ul li {
-    color: white;
     display: inline;
+    color: white;
 }
 
 .footer-navigation ul a {
     text-decoration: none;
     font-weight: 500;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 footer p {
