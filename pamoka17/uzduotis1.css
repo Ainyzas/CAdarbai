@@ -71,7 +71,7 @@ header .socials i {
 }
 
 footer {
-    background-color:#222222;
+    background-color: #222222;
     padding: 4rem 0;
 }
 
@@ -102,11 +102,19 @@ footer p {
     font-weight: 500;
 }
 
-footer section, footer p {
+footer section,
+footer p {
     padding: 1rem;
 }
 
 /* Body CSS */
+
+main h1 {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 10px;
+    font-size: 42px;
+}
 
 .welcome {
     background-color: var(--secondary-font-color);
@@ -121,19 +129,21 @@ footer section, footer p {
 
 .welcome h1 {
     font-size: 62px;
-    font-weight: 400;
 }
 
 .welcome p {
     line-height: 2rem;
+    font-weight: 500;
     padding-bottom: 1rem;
 }
 
 .welcome button {
-    
+    background-color: var(--secondary-font-color);
+    color: white;
+    font-weight: 500;
+    padding: 0.6rem;
+    border: 1px solid #5750e6;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px #5750e6;
+    border-radius: 3px;
 }
 
-main h1 {
-    font-weight: 400;
-    text-transform: uppercase;
-}
