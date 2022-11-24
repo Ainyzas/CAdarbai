@@ -381,11 +381,11 @@ img {
 
     .gallery div {
         display: flex;
-        width: 25%;
     }
 
     .gallery img {
         border-bottom: none;
+        width: 25%;
     }
 
     /* Contacts and footer section */
