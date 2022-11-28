@@ -1,19 +1,70 @@
-main {
-    background-color: greenyellow;
-    max-width: 450px;
-    margin: 0 auto;
+@import "./variables";
+
+@mixin centerContainer($backgroundColor) {
+    max-width: $ContainerMaxWidth * 1.5;
+    margin: $containerMargin;
+    background-color: $backgroundColor;
 }
 
-main button {
-    background-color: green;
+main {
+    @include centerContainer(greenyellow);
+
+    button {
+        background-color: $buttonColor;
+    }
 }
 
 footer {
-    background-color: aqua;
-    max-width: 450px;
-    margin: 0 auto;
+    @include centerContainer(aqua);
+
+    button {
+        background-color: $buttonColor;
+    }
 }
 
-footer button {
-    background-color: green;
+nav {
+    max-width: $navMaxWidth;
+    margin: $containerMargin;
+    background-color: $navColor;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        text-align: center;
+
+        li {
+            display: inline;
+
+            a {
+                text-decoration: none;
+                padding: 1rem;
+
+                &:hover {
+                    color: red;
+                }
+            }
+        }
+    }
 }
+
+h1 {
+    font-size: $headingFontSize;
+    @if $headingFontSize > 40px {
+        color: red;
+    } @else if $headingFontSize == 38px {
+        color: blue;
+    } @else {
+        color: green;
+    }
+}
+
+p {
+    text-align: justify;
+}
+
+@for $i from 1 through 4 {
+    .p#{$i} {
+      margin-left: 2rem * $i;
+    }
+  }
