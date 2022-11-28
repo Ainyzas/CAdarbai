@@ -1,0 +1,86 @@
+$backgroundColor: whitesmoke;
+$borderColor: grey;
+
+html,
+body {
+    background-color: gainsboro;
+    color: rgb(73, 73, 73);
+}
+
+header {
+    background-color: $backgroundColor;
+    text-align: center;
+    border: 1px solid $borderColor;
+    border-radius: 5px;
+    box-shadow: $borderColor 0.5px -0.5px;
+}
+
+img {
+    width: 40%;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+
+    a {
+        font-size: 28px;
+        text-decoration: none;
+        padding: 0.5rem;
+    }
+}
+
+main {
+    background-color: $backgroundColor;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: $borderColor 0.5px -0.5px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+h1 {
+    margin-left: 1.5rem;
+}
+
+table {
+    padding: 0.5rem 0 2rem 1rem;
+    width: 100%;
+}
+
+th,
+td {
+    border-bottom: 1px solid rgba(179, 179, 179, 0.603);
+    text-align: left;
+    font-size: 18px;
+    padding: 0.5rem;
+}
+
+p {
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    img {
+        width: 8%;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        img + nav {
+            width: 50%;
+        }
+
+        nav {
+            a {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+            }
+        }
+    }
+}
