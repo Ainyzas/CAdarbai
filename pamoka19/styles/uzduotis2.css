@@ -69,6 +69,11 @@ p {
   header img + nav {
     width: 50%;
   }
+  header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
   header nav a {
     display: flex;
     flex-direction: row;

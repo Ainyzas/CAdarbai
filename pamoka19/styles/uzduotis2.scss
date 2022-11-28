@@ -1,5 +1,10 @@
-$backgroundColor: whitesmoke;
-$borderColor: grey;
+@import "./variables";
+
+@mixin flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
 
 html,
 body {
@@ -76,10 +81,9 @@ p {
         }
 
         nav {
+            @include flexContainer;
             a {
-                display: flex;
-                flex-direction: row;
-                justify-content: flex-end;
+                @include flexContainer;
             }
         }
     }
