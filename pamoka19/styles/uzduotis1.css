@@ -1,64 +1,64 @@
 main {
-  max-width: 675px;
-  margin: 0 auto;
-  background-color: greenyellow;
+    max-width: 675px;
+    margin: 0 auto;
+    background-color: greenyellow;
 }
 main button {
-  background-color: green;
+    background-color: green;
 }
 
 footer {
-  max-width: 675px;
-  margin: 0 auto;
-  background-color: aqua;
+    max-width: 675px;
+    margin: 0 auto;
+    background-color: aqua;
 }
 footer button {
-  background-color: green;
+    background-color: green;
 }
 
 nav {
-  max-width: 300px;
-  margin: 0 auto;
-  background-color: orange;
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: orange;
 }
 nav ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
 }
 nav ul li {
-  display: inline;
+    display: inline;
 }
 nav ul li a {
-  text-decoration: none;
-  padding: 1rem;
+    text-decoration: none;
+    padding: 1rem;
 }
 nav ul li a:hover {
-  color: red;
+    color: red;
 }
 
 h1 {
-  font-size: 38px;
-  color: blue;
+    font-size: 38px;
+    color: blue;
 }
 
 p {
-  text-align: justify;
+    text-align: justify;
 }
 
 .p1 {
-  margin-left: 2rem;
+    margin-left: 2rem;
 }
 
 .p2 {
-  margin-left: 4rem;
+    margin-left: 4rem;
 }
 
 .p3 {
-  margin-left: 6rem;
+    margin-left: 6rem;
 }
 
 .p4 {
-  margin-left: 8rem;
-}/*# sourceMappingURL=uzduotis1.css.map */
+    margin-left: 8rem;
+} /*# sourceMappingURL=uzduotis1.css.map */
