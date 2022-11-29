@@ -1,204 +1,204 @@
 @charset "UTF-8";
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Lato", sans-serif;
-    text-align: center;
+  font-family: "Lato", sans-serif;
+  text-align: center;
 }
 
 header .flex-wrap {
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 header .flex-wrap h2 {
-    font-weight: 400;
-    opacity: 75%;
+  font-weight: 400;
+  opacity: 75%;
 }
 header .flex-wrap button {
-    height: 100%;
-    align-self: center;
-    color: white;
-    background-color: rgb(0, 89, 255);
-    border: 1px solid transparent;
-    border-radius: 5px;
-    padding: 0.6rem;
+  height: 100%;
+  align-self: center;
+  color: white;
+  background-color: rgb(0, 89, 255);
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 0.6rem;
 }
 
 main .welcome-sec {
-    width: 100%;
-    background-image: url(../assets/bg-main.jpg);
-    background-position: center;
+  width: 100%;
+  background-image: url(../assets/bg-main.jpg);
+  background-position: center;
 }
 main .welcome-sec div {
-    width: 85%;
-    padding: 8rem 0;
-    margin: 0 auto;
-    color: white;
+  width: 85%;
+  padding: 8rem 0;
+  margin: 0 auto;
+  color: white;
 }
 main .welcome-sec div input,
 main .welcome-sec div button {
-    width: 100%;
-    padding: 0.5rem;
-    margin-top: 10px;
-    border: 1px solid transparent;
-    border-radius: 5px;
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
 }
 main .welcome-sec div button {
-    background-color: rgb(0, 89, 255);
-    color: white;
+  background-color: rgb(0, 89, 255);
+  color: white;
 }
 main .about-wrap {
-    background-color: rgb(248, 248, 248);
-    padding: 1rem;
+  background-color: rgb(248, 248, 248);
+  padding: 1rem;
 }
 main .about-wrap .about-sec {
-    width: 75%;
-    margin: 5rem auto;
+  width: 75%;
+  margin: 5rem auto;
 }
 main .about-wrap .about-sec .about-item {
-    padding: 2rem;
+  padding: 2rem;
 }
 main .about-wrap .about-sec .about-item i {
-    color: rgb(0, 89, 255);
-    font-size: 48px;
+  color: rgb(0, 89, 255);
+  font-size: 48px;
 }
 main .about-wrap .about-sec .about-item p {
-    color: gray;
-    font-size: 18px;
+  color: gray;
+  font-size: 18px;
 }
 main .services-sec div {
-    width: 60%;
-    margin: 3rem auto;
-    text-align: left;
+  width: 60%;
+  margin: 3rem auto;
+  text-align: left;
 }
 main .services-sec div h2 {
-    font-size: 32px;
+  font-size: 32px;
 }
 main .services-sec div p {
-    color: gray;
-    font-size: 20px;
-    line-height: 1.75rem;
+  color: gray;
+  font-size: 20px;
+  line-height: 1.75rem;
 }
 main .services-sec img {
-    width: 100%;
+  width: 100%;
 }
 main .wrapper {
-    background-color: rgb(248, 248, 248);
-    padding: 8rem 0;
+  background-color: rgb(248, 248, 248);
+  padding: 8rem 0;
 }
 main .wrapper .review-sec {
-    width: 80%;
-    margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
 main .wrapper .review-sec h1 {
-    font-size: 38px;
+  font-size: 38px;
 }
 main .wrapper .review-sec .flex-wrap div {
-    padding: 2rem 0;
+  padding: 2rem 0;
 }
 main .wrapper .review-sec .flex-wrap div img {
-    width: 60%;
-    box-shadow: 0.5px 4.5px rgb(219, 219, 219);
-    border-radius: 50%;
+  width: 60%;
+  box-shadow: 0.5px 4.5px rgb(219, 219, 219);
+  border-radius: 50%;
 }
 main .wrapper .review-sec .flex-wrap div p {
-    color: gray;
+  color: gray;
 }
 main .contact-sec {
-    width: 100%;
-    background-image: url(../assets/bg-main.jpg);
-    background-position: center;
+  width: 100%;
+  background-image: url(../assets/bg-main.jpg);
+  background-position: center;
 }
 main .contact-sec div {
-    width: 85%;
-    padding: 8rem 0;
-    margin: 0 auto;
-    color: white;
+  width: 85%;
+  padding: 8rem 0;
+  margin: 0 auto;
+  color: white;
 }
 main .contact-sec div input,
 main .contact-sec div button {
-    width: 100%;
-    padding: 0.5rem;
-    margin-top: 10px;
-    border: 1px solid transparent;
-    border-radius: 5px;
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
 }
 main .contact-sec div button {
-    background-color: rgb(0, 89, 255);
-    color: white;
+  background-color: rgb(0, 89, 255);
+  color: white;
 }
 
 footer {
-    width: 80%;
-    margin: 4rem auto;
+  width: 80%;
+  margin: 4rem auto;
 }
 footer nav a {
-    text-decoration: none;
-    padding: 0.75rem;
-    color: rgb(0, 89, 255);
+  text-decoration: none;
+  padding: 0.75rem;
+  color: rgb(0, 89, 255);
 }
 footer nav a::after {
-    margin-left: 1.25rem;
-    content: "·";
+  margin-left: 1.25rem;
+  content: "·";
 }
 footer nav a:last-child::after {
-    content: "";
+  content: "";
 }
 footer p {
-    color: gray;
+  color: gray;
 }
 footer .socials i {
-    color: rgb(0, 89, 255);
-    font-size: 32px;
-    padding: 1.5rem;
+  color: rgb(0, 89, 255);
+  font-size: 32px;
+  padding: 1.5rem;
 }
 
-@media screen and (min-width: 768px) {
-    main .welcome-sec div,
-    main .contact-sec div {
-        width: 35%;
-    }
-    main .welcome-sec div input,
-    main .contact-sec div input {
-        width: 55%;
-    }
-    main .welcome-sec div button,
-    main .contact-sec div button {
-        width: 20%;
-    }
-    main .welcome-sec div br,
-    main .contact-sec div br {
-        display: none;
-    }
-    main .about-sec {
-        display: flex;
-    }
-    main .services-sec {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-    }
-    main .services-sec img {
-        height: 100%;
-    }
-    main .services-sec div {
-        align-self: center;
-    }
-    main .review-sec .flex-wrap {
-        display: flex;
-    }
-    main .review-sec .flex-wrap div {
-        width: 25%;
-        margin: 0 auto;
-    }
-    footer {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        text-align: left;
-    }
-} /*# sourceMappingURL=uzduotis1.css.map */
+@media screen and (min-width: 1024px) {
+  main .welcome-sec div,
+main .contact-sec div {
+    width: 35%;
+  }
+  main .welcome-sec div input,
+main .contact-sec div input {
+    width: 55%;
+  }
+  main .welcome-sec div button,
+main .contact-sec div button {
+    width: 20%;
+  }
+  main .welcome-sec div br,
+main .contact-sec div br {
+    display: none;
+  }
+  main .about-sec {
+    display: flex;
+  }
+  main .services-sec {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  main .services-sec img {
+    height: 100%;
+  }
+  main .services-sec div {
+    align-self: center;
+  }
+  main .review-sec .flex-wrap {
+    display: flex;
+  }
+  main .review-sec .flex-wrap div {
+    width: 25%;
+    margin: 0 auto;
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+}/*# sourceMappingURL=uzduotis1.css.map */
