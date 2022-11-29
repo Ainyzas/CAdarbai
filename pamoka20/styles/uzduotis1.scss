@@ -1,5 +1,6 @@
 $fontColor: gray;
 $buttonColor: rgb(0, 89, 255);
+$backgroundColor: rgb(248, 248, 248);
 $sectionWidth: 80%;
 
 @mixin signup {
@@ -67,21 +68,25 @@ main {
         @include signup();
     }
 
-    .about-sec {
-        width: 75%;
-        margin: 5rem auto;
+    .about-wrap {
+        background-color: $backgroundColor;
+        padding: 1rem;
+        .about-sec {
+            width: 75%;
+            margin: 5rem auto;
 
-        .about-item {
-            padding: 2rem;
+            .about-item {
+                padding: 2rem;
 
-            i {
-                color: $buttonColor;
-                font-size: 48px;
-            }
+                i {
+                    color: $buttonColor;
+                    font-size: 48px;
+                }
 
-            p {
-                color: $fontColor;
-                font-size: 18px;
+                p {
+                    color: $fontColor;
+                    font-size: 18px;
+                }
             }
         }
     }
@@ -109,7 +114,7 @@ main {
     }
 
     .wrapper {
-        background-color: rgb(248, 248, 248);
+        background-color: $backgroundColor;
         padding: 8rem 0;
         .review-sec {
             width: 80%;
@@ -141,7 +146,6 @@ main {
         width: 100%;
         @include signup();
     }
-
 }
 
 footer {
@@ -149,7 +153,6 @@ footer {
     margin: 4rem auto;
 
     nav {
-
         a {
             text-decoration: none;
             padding: 0.75rem;
@@ -158,6 +161,10 @@ footer {
             &::after {
                 margin-left: 1.25rem;
                 content: "\00B7";
+            }
+
+            &:last-child::after {
+                content: "";
             }
         }
     }
@@ -173,6 +180,61 @@ footer {
             padding: 1.5rem;
         }
     }
+}
 
+@media screen and (min-width: 768px) {
+    main {
+        .welcome-sec,
+        .contact-sec {
+            div {
+                width: 35%;
 
+                input {
+                    width: 55%;
+                }
+                button {
+                    width: 20%;
+                }
+                br {
+                    display: none;
+                }
+            }
+        }
+
+        .about-sec {
+            display: flex;
+        }
+
+        .services-sec {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+
+            img {
+                height: 100%;
+            }
+
+            div {
+                align-self: center;
+            }
+        }
+
+        .review-sec {
+            .flex-wrap {
+                display: flex;
+
+                div {
+                    width: 25%;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+    }
 }

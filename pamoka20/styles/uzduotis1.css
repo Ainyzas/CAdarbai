@@ -51,18 +51,22 @@ main .welcome-sec div button {
   background-color: rgb(0, 89, 255);
   color: white;
 }
-main .about-sec {
+main .about-wrap {
+  background-color: rgb(248, 248, 248);
+  padding: 1rem;
+}
+main .about-wrap .about-sec {
   width: 75%;
   margin: 5rem auto;
 }
-main .about-sec .about-item {
+main .about-wrap .about-sec .about-item {
   padding: 2rem;
 }
-main .about-sec .about-item i {
+main .about-wrap .about-sec .about-item i {
   color: rgb(0, 89, 255);
   font-size: 48px;
 }
-main .about-sec .about-item p {
+main .about-wrap .about-sec .about-item p {
   color: gray;
   font-size: 18px;
 }
@@ -141,6 +145,9 @@ footer nav a::after {
   margin-left: 1.25rem;
   content: "·";
 }
+footer nav a:last-child::after {
+  content: "";
+}
 footer p {
   color: gray;
 }
@@ -148,4 +155,50 @@ footer .socials i {
   color: rgb(0, 89, 255);
   font-size: 32px;
   padding: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  main .welcome-sec div,
+main .contact-sec div {
+    width: 35%;
+  }
+  main .welcome-sec div input,
+main .contact-sec div input {
+    width: 55%;
+  }
+  main .welcome-sec div button,
+main .contact-sec div button {
+    width: 20%;
+  }
+  main .welcome-sec div br,
+main .contact-sec div br {
+    display: none;
+  }
+  main .about-sec {
+    display: flex;
+  }
+  main .services-sec {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  main .services-sec img {
+    height: 100%;
+  }
+  main .services-sec div {
+    align-self: center;
+  }
+  main .review-sec .flex-wrap {
+    display: flex;
+  }
+  main .review-sec .flex-wrap div {
+    width: 25%;
+    margin: 0 auto;
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
 }/*# sourceMappingURL=uzduotis1.css.map */

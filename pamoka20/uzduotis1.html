@@ -37,27 +37,29 @@
                 </div>
             </section>
 
-            <section class="about-sec">
-                <div class="about-item">
-                    <span><i class="fas fa-desktop"></i></span>
-                    <h2>Fully Responsive</h2>
-                    <p>This theme will look great on any device, no matter the size!</p>
-                </div>
-                <div class="about-item">
-                    <span><i class="fas fa-layer-group"></i></span>
-                    <h2>Bootstrap 4 Ready</h2>
-                    <p>Featuring the latest build of the new Bootstrap 4 framework!</p>
-                </div>
-                <div class="about-item">
-                    <span><i class="fa-regular fa-circle-check"></i></span>
-                    <h2>Easy To Use</h2>
-                    <p>Ready to use with your own content, or customize the source files!</p>
-                </div>
-            </section>
+            <div class="about-wrap">
+                <section class="about-sec">
+                    <div class="about-item">
+                        <span><i class="fas fa-desktop"></i></span>
+                        <h2>Fully Responsive</h2>
+                        <p>This theme will look great on any device, no matter the size!</p>
+                    </div>
+                    <div class="about-item">
+                        <span><i class="fas fa-layer-group"></i></span>
+                        <h2>Bootstrap 4 Ready</h2>
+                        <p>Featuring the latest build of the new Bootstrap 4 framework!</p>
+                    </div>
+                    <div class="about-item">
+                        <span><i class="fa-regular fa-circle-check"></i></span>
+                        <h2>Easy To Use</h2>
+                        <p>Ready to use with your own content, or customize the source files!</p>
+                    </div>
+                </section>
+            </div>
 
             <section class="services-sec">
-                <img src="assets/bg1.jpg" alt="" />
-                <div>
+                <img src="assets/bg1.jpg" alt="" style="order: 2" />
+                <div style="order: 1">
                     <h2>Fully Responsive Design</h2>
                     <p>
                         When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's
@@ -65,8 +67,8 @@
                     </p>
                 </div>
 
-                <img src="assets/bg2.jpg" alt="" />
-                <div>
+                <img src="assets/bg2.jpg" alt="" style="order: 3" />
+                <div style="order: 4">
                     <h2>Updated For Bootstrap 4</h2>
                     <p>
                         Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web
@@ -74,8 +76,8 @@
                     </p>
                 </div>
 
-                <img src="assets/bg3.jpg" alt="" />
-                <div>
+                <img src="assets/bg3.jpg" alt="" style="order: 6" />
+                <div style="order: 5">
                     <h2>Easy To Use & Customize</h2>
                     <p>
                         Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out
@@ -117,13 +119,16 @@
         </main>
 
         <footer>
-            <nav>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-                <a href="#">Terms of Use</a>
-                <a href="#">Privacy Policy</a>
-            </nav>
-            <p>© Your Website 2018. All Rights Reserved.</p>
+            <div class="links">
+                <nav>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Privacy Policy</a>
+                </nav>
+                <p>© Your Website 2018. All Rights Reserved.</p>
+            </div>
+
             <div class="socials">
                 <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
                 <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
