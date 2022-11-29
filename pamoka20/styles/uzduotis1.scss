@@ -1,3 +1,33 @@
+$fontColor: gray;
+$buttonColor: rgb(0, 89, 255);
+$sectionWidth: 80%;
+
+@mixin signup {
+    background-image: url(../assets/bg-main.jpg);
+    background-position: center;
+
+    div {
+        width: 85%;
+        padding: 8rem 0;
+        margin: 0 auto;
+        color: white;
+
+        input,
+        button {
+            width: 100%;
+            padding: 0.5rem;
+            margin-top: 10px;
+            border: 1px solid transparent;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: $buttonColor;
+            color: white;
+        }
+    }
+}
+
 * {
     box-sizing: border-box;
 }
@@ -5,4 +35,144 @@
 body {
     font-family: "Lato", sans-serif;
     text-align: center;
+}
+
+header {
+    .flex-wrap {
+        width: $sectionWidth;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+
+        h2 {
+            font-weight: 400;
+            opacity: 75%;
+        }
+
+        button {
+            height: 100%;
+            align-self: center;
+            color: white;
+            background-color: $buttonColor;
+            border: 1px solid transparent;
+            border-radius: 5px;
+            padding: 0.6rem;
+        }
+    }
+}
+
+main {
+    .welcome-sec {
+        width: 100%;
+        @include signup();
+    }
+
+    .about-sec {
+        width: 75%;
+        margin: 5rem auto;
+
+        .about-item {
+            padding: 2rem;
+
+            i {
+                color: $buttonColor;
+                font-size: 48px;
+            }
+
+            p {
+                color: $fontColor;
+                font-size: 18px;
+            }
+        }
+    }
+
+    .services-sec {
+        div {
+            width: 60%;
+            margin: 3rem auto;
+            text-align: left;
+
+            h2 {
+                font-size: 32px;
+            }
+
+            p {
+                color: $fontColor;
+                font-size: 20px;
+                line-height: 1.75rem;
+            }
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .wrapper {
+        background-color: rgb(248, 248, 248);
+        padding: 8rem 0;
+        .review-sec {
+            width: 80%;
+            margin: 0 auto;
+
+            h1 {
+                font-size: 38px;
+            }
+
+            .flex-wrap {
+                div {
+                    padding: 2rem 0;
+
+                    img {
+                        width: 60%;
+                        box-shadow: 0.5px 4.5px rgb(219, 219, 219);
+                        border-radius: 50%;
+                    }
+
+                    p {
+                        color: $fontColor;
+                    }
+                }
+            }
+        }
+    }
+
+    .contact-sec {
+        width: 100%;
+        @include signup();
+    }
+
+}
+
+footer {
+    width: $sectionWidth;
+    margin: 4rem auto;
+
+    nav {
+
+        a {
+            text-decoration: none;
+            padding: 0.75rem;
+            color: $buttonColor;
+
+            &::after {
+                margin-left: 1.25rem;
+                content: "\00B7";
+            }
+        }
+    }
+
+    p {
+        color: $fontColor;
+    }
+
+    .socials {
+        i {
+            color: $buttonColor;
+            font-size: 32px;
+            padding: 1.5rem;
+        }
+    }
+
+
 }

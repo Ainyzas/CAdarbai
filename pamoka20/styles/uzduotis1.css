@@ -1,0 +1,151 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+
+header .flex-wrap {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+header .flex-wrap h2 {
+  font-weight: 400;
+  opacity: 75%;
+}
+header .flex-wrap button {
+  height: 100%;
+  align-self: center;
+  color: white;
+  background-color: rgb(0, 89, 255);
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 0.6rem;
+}
+
+main .welcome-sec {
+  width: 100%;
+  background-image: url(../assets/bg-main.jpg);
+  background-position: center;
+}
+main .welcome-sec div {
+  width: 85%;
+  padding: 8rem 0;
+  margin: 0 auto;
+  color: white;
+}
+main .welcome-sec div input,
+main .welcome-sec div button {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+main .welcome-sec div button {
+  background-color: rgb(0, 89, 255);
+  color: white;
+}
+main .about-sec {
+  width: 75%;
+  margin: 5rem auto;
+}
+main .about-sec .about-item {
+  padding: 2rem;
+}
+main .about-sec .about-item i {
+  color: rgb(0, 89, 255);
+  font-size: 48px;
+}
+main .about-sec .about-item p {
+  color: gray;
+  font-size: 18px;
+}
+main .services-sec div {
+  width: 60%;
+  margin: 3rem auto;
+  text-align: left;
+}
+main .services-sec div h2 {
+  font-size: 32px;
+}
+main .services-sec div p {
+  color: gray;
+  font-size: 20px;
+  line-height: 1.75rem;
+}
+main .services-sec img {
+  width: 100%;
+}
+main .wrapper {
+  background-color: rgb(248, 248, 248);
+  padding: 8rem 0;
+}
+main .wrapper .review-sec {
+  width: 80%;
+  margin: 0 auto;
+}
+main .wrapper .review-sec h1 {
+  font-size: 38px;
+}
+main .wrapper .review-sec .flex-wrap div {
+  padding: 2rem 0;
+}
+main .wrapper .review-sec .flex-wrap div img {
+  width: 60%;
+  box-shadow: 0.5px 4.5px rgb(219, 219, 219);
+  border-radius: 50%;
+}
+main .wrapper .review-sec .flex-wrap div p {
+  color: gray;
+}
+main .contact-sec {
+  width: 100%;
+  background-image: url(../assets/bg-main.jpg);
+  background-position: center;
+}
+main .contact-sec div {
+  width: 85%;
+  padding: 8rem 0;
+  margin: 0 auto;
+  color: white;
+}
+main .contact-sec div input,
+main .contact-sec div button {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+main .contact-sec div button {
+  background-color: rgb(0, 89, 255);
+  color: white;
+}
+
+footer {
+  width: 80%;
+  margin: 4rem auto;
+}
+footer nav a {
+  text-decoration: none;
+  padding: 0.75rem;
+  color: rgb(0, 89, 255);
+}
+footer nav a::after {
+  margin-left: 1.25rem;
+  content: "·";
+}
+footer p {
+  color: gray;
+}
+footer .socials i {
+  color: rgb(0, 89, 255);
+  font-size: 32px;
+  padding: 1.5rem;
+}/*# sourceMappingURL=uzduotis1.css.map */
