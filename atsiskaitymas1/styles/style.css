@@ -28,7 +28,7 @@ header nav span {
 }
 
 main .launch-sec {
-  width: 80%;
+  width: 85%;
   margin: 5rem auto;
   text-align: left;
 }
@@ -84,4 +84,88 @@ main .launch-sec.bottom .wrapper img {
   position: relative;
   left: 20%;
   top: 8rem;
+}
+main .promo-sec {
+  background-image: linear-gradient(to right, #ff3998, #ff8139 30%, #39ffa0 180%);
+  padding: 6rem 0 1rem 0;
+}
+main .promo-sec div {
+  width: 85%;
+  margin: 0 auto;
+  text-align: left;
+}
+main .promo-sec div h2 {
+  font-size: 40px;
+  font-weight: 500;
+}
+main .promo-sec div p {
+  font-size: 20px;
+  line-height: 1.75rem;
+}
+main .companies-sec {
+  width: 85%;
+  margin: 2rem auto;
+  padding-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+main .companies-sec img {
+  padding-bottom: 1.5rem;
+}
+main .companies-sec .wrap {
+  overflow: hidden;
+  max-width: 8.5rem;
+}
+main .companies-sec #openDoor {
+  display: none;
+}
+main .auction-sec {
+  width: 85%;
+  margin: 0 auto;
+  text-align: left;
+}
+main .auction-sec h2,
+main .auction-sec p {
+  width: 90%;
+}
+main .auction-sec h2 {
+  font-size: 40px;
+  font-weight: 500;
+}
+main .auction-sec p {
+  font-size: 20px;
+  color: #555555;
+}
+main .auction-sec p span {
+  text-decoration: underline;
+}
+main .auction-sec .flex-wrap {
+  display: flex;
+  gap: 3rem;
+}
+main .auction-sec .flex-wrap .auction-item {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  background-color: #eeeeee;
+  border-radius: 15px;
+}
+main .auction-sec .flex-wrap .auction-item .item-desc {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  align-items: center;
+  padding: 2rem;
+}
+main .auction-sec .flex-wrap .auction-item .item-desc .right {
+  text-align: right;
+}
+main .auction-sec .flex-wrap .auction-item .item-desc img {
+  padding-right: 0.5rem;
+}
+
+footer .copyright #copyright-h3-desktop {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
