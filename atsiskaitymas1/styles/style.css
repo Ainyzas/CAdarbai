@@ -5,4 +5,83 @@
 body {
   font-family: "Inter", sans-serif;
   text-align: center;
+}
+
+header {
+  width: 85%;
+  margin: 2rem auto;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav img {
+  width: 55%;
+}
+header nav ul {
+  display: none;
+}
+header nav span {
+  font-size: 32px;
+  color: #999999;
+}
+
+main .launch-sec {
+  width: 80%;
+  margin: 5rem auto;
+  text-align: left;
+}
+main .launch-sec h3,
+main .launch-sec h1,
+main .launch-sec p {
+  width: 70%;
+}
+main .launch-sec h3 {
+  font-weight: 700;
+  color: #ff3998;
+  text-transform: uppercase;
+}
+main .launch-sec h1 {
+  font-weight: 900;
+  font-size: 48px;
+}
+main .launch-sec p {
+  line-height: 1.75rem;
+  font-weight: 400;
+  font-size: 20px;
+  color: #555555;
+}
+main .launch-sec button {
+  background: linear-gradient(white, white) padding-box, linear-gradient(to right, #ff3998, #ff3939, #ff8139) border-box;
+  border-radius: 35px;
+  border: 3px solid transparent;
+  cursor: pointer;
+  padding: 1.25rem 3.5rem;
+  margin-top: 15px;
+  font-weight: 600;
+}
+main .launch-sec.top img {
+  float: right;
+  width: 85%;
+  position: absolute;
+  left: 55%;
+  top: 10%;
+}
+main .launch-sec.bottom {
+  width: 100%;
+  padding: 4.5rem 0;
+  border-top: 2px solid #eeeeee;
+  border-bottom: 2px solid #eeeeee;
+}
+main .launch-sec.bottom .wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+main .launch-sec.bottom .wrapper img {
+  float: right;
+  width: 45%;
+  position: relative;
+  left: 20%;
+  top: 8rem;
 }/*# sourceMappingURL=style.css.map */
