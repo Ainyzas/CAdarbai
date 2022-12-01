@@ -87,7 +87,9 @@ main .launch-sec.bottom .wrapper img {
   top: 8rem;
 }
 main .promo-sec {
-  background-image: linear-gradient(to right, #ff3998, #ff8139 30%, #39ffa0 180%);
+  background-image: url(../assets/background.svg);
+  background-repeat: no-repeat;
+  background-position: 15% 85%;
   padding: 6rem 0 1rem 0;
 }
 main .promo-sec div {
@@ -232,4 +234,116 @@ footer .copyright h3 {
 }
 footer .copyright #copyright-h3-desktop {
   display: none;
+}
+
+@media screen and (min-width: 768px) {
+  header nav {
+    padding-bottom: 8rem;
+  }
+  header nav img {
+    width: 15%;
+  }
+  header nav ul {
+    display: initial;
+  }
+  header nav ul a {
+    color: #555555;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 1rem;
+  }
+  header nav ul a:last-child {
+    color: #ff3998;
+  }
+  header nav ul a li {
+    display: inline;
+  }
+  header nav span {
+    display: none;
+  }
+  main .launch-sec {
+    padding-bottom: 8rem;
+  }
+  main .launch-sec.top h1 {
+    width: 40%;
+    font-size: 96px;
+    font-weight: 900;
+    margin: 0;
+  }
+  main .launch-sec.top p {
+    width: 35%;
+  }
+  main .launch-sec.top img {
+    float: right;
+    width: 38%;
+    top: 12rem;
+    left: 55rem;
+  }
+  main .launch-sec.bottom {
+    width: 85%;
+  }
+  main .launch-sec.bottom .wrapper {
+    width: 100%;
+    padding: 1.5rem 0 3rem 0;
+  }
+  main .launch-sec.bottom .wrapper img {
+    position: relative;
+    float: right;
+    width: 12%;
+    left: -18rem;
+    top: -1.6rem;
+  }
+  main .launch-sec.bottom .wrapper h1 {
+    font-weight: 900;
+    font-size: 56px;
+  }
+  main .launch-sec.bottom .wrapper p {
+    width: 35%;
+  }
+  main .promo-sec {
+    width: 85%;
+    margin: 0 auto;
+    background-size: cover;
+    border-radius: 15px;
+    padding-bottom: 2rem;
+  }
+  main .promo-sec div {
+    width: 90%;
+  }
+  main .companies-sec {
+    padding: 5rem 0;
+  }
+  main .companies-sec .wrap {
+    overflow: initial;
+    max-width: initial;
+  }
+  main .companies-sec #openDoor {
+    display: initial;
+  }
+  main .auction-sec .flex-wrap {
+    padding: 2rem 0;
+  }
+  footer .desktop-wrap {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer .desktop-wrap .socials img {
+    width: 85%;
+  }
+  footer .desktop-wrap .menu-flex {
+    padding: 0;
+    justify-content: flex-end;
+  }
+  footer .desktop-wrap .menu-flex .menu-item {
+    padding: 0 5.5rem 0 0;
+  }
+  footer .copyright {
+    padding: 3.5rem 0 2.5rem 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer .copyright #copyright-h3-desktop {
+    display: initial;
+  }
 }/*# sourceMappingURL=style.css.map */

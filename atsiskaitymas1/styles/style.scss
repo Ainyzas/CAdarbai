@@ -116,7 +116,9 @@ main {
     }
 
     .promo-sec {
-        background-image: linear-gradient(to right, $launchingColor, $gloopColor 30%, $gradientColor 180%);
+        background-image: url(../assets/background.svg);
+        background-repeat: no-repeat;
+        background-position: 15% 85%;
         padding: 6rem 0 1rem 0;
 
         div {
@@ -295,5 +297,149 @@ footer {
     }
 }
 
-@media screen and (min-width: 428px) {
+@media screen and (min-width: 768px) {
+    header {
+        nav {
+            padding-bottom: 8rem;
+
+            img {
+                width: 15%;
+            }
+
+            ul {
+                display: initial;
+                a {
+                    color: $pColor;
+                    text-decoration: none;
+                    font-size: 20px;
+                    padding: 1rem;
+
+                    &:last-child {
+                        color: $launchingColor;
+                    }
+
+                    li {
+                        display: inline;
+                    }
+                }
+            }
+
+            span {
+                display: none;
+            }
+        }
+    }
+
+    main {
+        .launch-sec {
+            padding-bottom: 8rem;
+
+            &.top {
+                h1 {
+                    width: 40%;
+                    font-size: 96px;
+                    font-weight: 900;
+                    margin: 0;
+                }
+
+                p {
+                    width: 35%;
+                }
+
+                img {
+                    float: right;
+                    width: 38%;
+                    top: 12rem;
+                    left: 55rem;
+                }
+            }
+
+            &.bottom {
+                width: 85%;
+                .wrapper {
+                    width: 100%;
+                    padding: 1.5rem 0 3rem 0;
+
+                    img {
+                        position: relative;
+                        float: right;
+                        width: 12%;
+                        left: -18rem;
+                        top: -1.6rem;
+                    }
+
+                    h1 {
+                        font-weight: 900;
+                        font-size: 56px;
+                    }
+
+                    p {
+                        width: 35%;
+                    }
+                }
+            }
+        }
+
+        .promo-sec {
+            width: 85%;
+            margin: 0 auto;
+            background-size: cover;
+            border-radius: 15px;
+            padding-bottom: 2rem;
+
+            div {
+                width: 90%;
+            }
+        }
+
+        .companies-sec {
+            padding: 5rem 0;
+
+            .wrap {
+                overflow: initial;
+                max-width: initial;
+            }
+
+            #openDoor {
+                display: initial;
+            }
+        }
+
+        .auction-sec {
+            .flex-wrap {
+                padding: 2rem 0;
+            }
+        }
+    }
+
+    footer {
+        .desktop-wrap {
+            padding-top: 2rem;
+            display: flex;
+            justify-content: space-between;
+            .socials {
+                img {
+                    width: 85%;
+                }
+            }
+
+            .menu-flex {
+                padding: 0;
+                justify-content: flex-end;
+                .menu-item {
+                    padding: 0 5.5rem 0 0;
+
+                }
+            }
+        }
+
+        .copyright {
+            padding: 3.5rem 0 2.5rem 0;
+            display: flex;
+            justify-content: space-between;
+            #copyright-h3-desktop {
+                display: initial;
+            }
+        }
+    }
 }
