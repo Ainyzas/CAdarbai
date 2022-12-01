@@ -1,5 +1,6 @@
 $mainColor: #111111;
 $pColor: #555555;
+$h4Color: #777777;
 $iconColor: #999999;
 $launchingColor: #ff3998;
 $gloopColor: #ff8139;
@@ -37,6 +38,7 @@ header {
         span {
             font-size: 32px;
             color: $iconColor;
+            cursor: pointer;
         }
     }
 }
@@ -193,16 +195,36 @@ main {
                 .item-desc {
                     display: grid;
                     grid-template-columns: repeat(2, 1fr);
-                    grid-template-rows: repeat(3, 1fr);
+                    grid-template-rows: repeat(3, 2rem);
                     align-items: center;
-                    padding: 2rem;
+                    padding: 1rem 1.5rem;
 
                     .right {
                         text-align: right;
                     }
 
                     img {
-                        padding-right: 0.5rem;
+                        position: relative;
+                        right: 0.25rem;
+                        top: 0.25rem;
+                    }
+
+                    h5 {
+                        color: $gloopColor;
+                        font-size: 12px !important;
+                        font-weight: 500 !important;
+                        text-transform: uppercase;
+                    }
+
+                    h4 {
+                        font-size: 20px;
+                        font-weight: 500;
+                    }
+
+                    .grey {
+                        color: $h4Color;
+                        font-size: 18px;
+                        font-weight: 400;
                     }
                 }
             }
@@ -211,17 +233,62 @@ main {
 }
 
 footer {
+    text-align: left;
+    width: 85%;
+    margin: 0 auto;
+    color: $pColor;
     .socials {
+        img {
+            width: 48%;
+        }
+
+        h3 {
+            font-size: 20px;
+            font-weight: 400;
+            padding-top: 0.5rem;
+        }
+
         .links {
+            i {
+                padding: 0.35rem;
+                font-size: 18px;
+                color: $iconColor;
+            }
         }
     }
 
     .menu-flex {
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 2.5rem 0 1.5rem 0;
         .menu-item {
+            padding-right: 2.5rem;
+
+            h3 {
+                padding-bottom: 0.4rem;
+                font-weight: 700;
+                font-size: 16px;
+                text-transform: uppercase;
+                letter-spacing: 0.15rem;
+            }
+
+            h4 {
+                line-height: 0.75rem;
+                font-weight: 400;
+                font-size: 20px;
+            }
         }
     }
 
     .copyright {
+        h3 {
+            color: $iconColor;
+            font-size: 20px;
+            font-weight: 400;
+        }
+
         #copyright-h3-desktop {
             display: none;
         }
