@@ -196,6 +196,7 @@ main {
         .flex-wrap {
             display: flex;
             gap: 3rem;
+            overflow: scroll;
 
             .auction-item {
                 display: flex;
@@ -273,7 +274,7 @@ footer {
     }
 
     .menu-flex {
-        width: 90%;
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -430,6 +431,7 @@ footer {
         .auction-sec {
             .flex-wrap {
                 padding: 2rem 0;
+                overflow: initial;
             }
         }
     }
@@ -446,6 +448,7 @@ footer {
             }
 
             .menu-flex {
+                width: 70%;
                 padding: 0;
                 justify-content: flex-end;
                 .menu-item {
