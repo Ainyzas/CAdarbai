@@ -39,6 +39,10 @@ header {
             font-size: 32px;
             color: $iconColor;
             cursor: pointer;
+
+            &:hover {
+                opacity: 75%;
+            }
         }
     }
 }
@@ -181,6 +185,11 @@ main {
 
             span {
                 text-decoration: underline;
+
+                &:hover {
+                    opacity: 75%;
+                    cursor: pointer;
+                }
             }
         }
 
@@ -255,18 +264,22 @@ footer {
                 padding: 0.35rem;
                 font-size: 18px;
                 color: $iconColor;
+
+                &:hover {
+                    opacity: 75%;
+                }
             }
         }
     }
 
     .menu-flex {
-        width: 70%;
+        width: 90%;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         padding: 2.5rem 0 1.5rem 0;
         .menu-item {
-            padding-right: 2.5rem;
+            padding-right: 5rem;
 
             h3 {
                 padding-bottom: 0.4rem;
@@ -280,6 +293,11 @@ footer {
                 line-height: 0.75rem;
                 font-weight: 400;
                 font-size: 20px;
+            }
+
+            h4:hover {
+                cursor: pointer;
+                opacity: 75%;
             }
         }
     }
@@ -316,6 +334,10 @@ footer {
 
                     &:last-child {
                         color: $launchingColor;
+                    }
+
+                    &:hover {
+                        opacity: 75%;
                     }
 
                     li {
@@ -428,7 +450,6 @@ footer {
                 justify-content: flex-end;
                 .menu-item {
                     padding: 0 5.5rem 0 0;
-
                 }
             }
         }

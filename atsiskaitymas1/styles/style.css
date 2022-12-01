@@ -27,6 +27,9 @@ header nav span {
   color: #999999;
   cursor: pointer;
 }
+header nav span:hover {
+  opacity: 75%;
+}
 
 main .launch-sec {
   width: 85%;
@@ -144,6 +147,10 @@ main .auction-sec p {
 main .auction-sec p span {
   text-decoration: underline;
 }
+main .auction-sec p span:hover {
+  opacity: 75%;
+  cursor: pointer;
+}
 main .auction-sec .flex-wrap {
   display: flex;
   gap: 3rem;
@@ -205,15 +212,18 @@ footer .socials .links i {
   font-size: 18px;
   color: #999999;
 }
+footer .socials .links i:hover {
+  opacity: 75%;
+}
 footer .menu-flex {
-  width: 70%;
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 2.5rem 0 1.5rem 0;
 }
 footer .menu-flex .menu-item {
-  padding-right: 2.5rem;
+  padding-right: 5rem;
 }
 footer .menu-flex .menu-item h3 {
   padding-bottom: 0.4rem;
@@ -226,6 +236,10 @@ footer .menu-flex .menu-item h4 {
   line-height: 0.75rem;
   font-weight: 400;
   font-size: 20px;
+}
+footer .menu-flex .menu-item h4:hover {
+  cursor: pointer;
+  opacity: 75%;
 }
 footer .copyright h3 {
   color: #999999;
@@ -254,6 +268,9 @@ footer .copyright #copyright-h3-desktop {
   }
   header nav ul a:last-child {
     color: #ff3998;
+  }
+  header nav ul a:hover {
+    opacity: 75%;
   }
   header nav ul a li {
     display: inline;
