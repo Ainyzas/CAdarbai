@@ -107,7 +107,7 @@ console.log("suma:" + suma, "Skirtumas:" + skirtumas, "Daugyba:" + daugyba, "Dal
 // Task 3
 
 {
-    let birthDay = "gegužės 12";
+    const birthDay = "gegužės 12";
     let name = prompt("What is your name?");
 
     console.log(name + " yra gimęs " + birthDay);
