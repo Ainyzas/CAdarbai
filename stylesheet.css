@@ -48,6 +48,10 @@ a:visited {
     display: flex;
 }
 
+h2 {
+    text-align: center;
+}
+
 .mainPageList {
     color: rgb(221, 224, 35);
     text-align: left;
