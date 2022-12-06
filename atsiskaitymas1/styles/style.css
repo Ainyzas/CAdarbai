@@ -1,385 +1,369 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Inter", sans-serif;
-    text-align: center;
+  font-family: "Inter", sans-serif;
+  text-align: center;
 }
 
 header {
-    width: 85%;
-    margin: 2rem auto;
+  width: 85%;
+  margin: 2rem auto;
 }
 header nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 header nav img {
-    width: 55%;
+  width: 55%;
 }
 header nav ul {
-    display: none;
+  display: none;
 }
 header nav span {
-    font-size: 32px;
-    color: #999999;
-    cursor: pointer;
+  font-size: 32px;
+  color: #999999;
+  cursor: pointer;
 }
 header nav span:hover {
-    opacity: 75%;
+  opacity: 75%;
 }
 
-/* Launch top ir bottom sections */
 main .launch-sec {
-    width: 85%;
-    margin: 5rem auto;
-    text-align: left;
+  width: 85%;
+  margin: 5rem auto;
+  text-align: left;
 }
 main .launch-sec h3,
 main .launch-sec h1,
 main .launch-sec p {
-    width: 70%;
+  width: 70%;
 }
 main .launch-sec h3 {
-    font-weight: 700;
-    color: #ff3998;
-    text-transform: uppercase;
+  font-weight: 700;
+  color: #ff3998;
+  text-transform: uppercase;
 }
 main .launch-sec h1 {
-    font-weight: 900;
-    font-size: 48px;
+  font-weight: 900;
+  font-size: 48px;
 }
 main .launch-sec p {
-    line-height: 1.75rem;
-    font-weight: 400;
-    font-size: 20px;
-    color: #555555;
+  line-height: 1.75rem;
+  font-weight: 400;
+  font-size: 20px;
+  color: #555555;
 }
 main .launch-sec button {
-    background: linear-gradient(white, white) padding-box, linear-gradient(to right, #ff3998, #ff3939, #ff8139) border-box;
-    border-radius: 35px;
-    border: 3px solid transparent;
-    cursor: pointer;
-    padding: 1.25rem 3.5rem;
-    margin-top: 15px;
-    font-weight: 600;
+  background: linear-gradient(white, white) padding-box, linear-gradient(to right, #ff3998, #ff3939, #ff8139) border-box;
+  border-radius: 35px;
+  border: 3px solid transparent;
+  cursor: pointer;
+  padding: 1.25rem 3.5rem;
+  margin-top: 15px;
+  font-weight: 600;
 }
 main .launch-sec.top img {
-    float: right;
-    width: 85%;
-    position: absolute;
-    left: 55%;
-    top: 10%;
+  float: right;
+  width: 85%;
+  position: absolute;
+  left: 55%;
+  top: 10%;
 }
 main .launch-sec.bottom {
-    width: 100%;
-    padding: 4.5rem 0;
-    border-top: 2px solid #eeeeee;
-    border-bottom: 2px solid #eeeeee;
+  width: 100%;
+  padding: 4.5rem 0;
+  border-top: 2px solid #eeeeee;
+  border-bottom: 2px solid #eeeeee;
 }
 main .launch-sec.bottom .wrapper {
-    width: 80%;
-    margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
 main .launch-sec.bottom .wrapper img {
-    float: right;
-    width: 45%;
-    position: relative;
-    left: 20%;
-    top: 8rem;
+  float: right;
+  width: 45%;
+  position: relative;
+  left: 20%;
+  top: 8rem;
 }
-
-/* Promo section */
-
 main .promo-sec {
-    background-image: url(../assets/background.svg);
-    background-repeat: no-repeat;
-    background-position: 15% 85%;
-    padding: 6rem 0 1rem 0;
+  background-image: url(../assets/background.svg);
+  background-repeat: no-repeat;
+  background-position: 15% 85%;
+  padding: 6rem 0 1rem 0;
 }
 main .promo-sec div {
-    width: 85%;
-    margin: 0 auto;
-    text-align: left;
+  width: 85%;
+  margin: 0 auto;
+  text-align: left;
 }
 main .promo-sec div h2 {
-    font-size: 40px;
-    font-weight: 500;
+  font-size: 40px;
+  font-weight: 500;
 }
 main .promo-sec div p {
-    font-size: 20px;
-    line-height: 1.75rem;
+  font-size: 20px;
+  line-height: 1.75rem;
 }
-
-/* Companies section */
 main .companies-sec {
-    width: 85%;
-    margin: 2rem auto;
-    padding-top: 3rem;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 1rem;
+  width: 85%;
+  margin: 2rem auto;
+  padding-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 main .companies-sec img {
-    padding-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 main .companies-sec .wrap {
-    overflow: hidden;
-    max-width: 8.5rem;
+  overflow: hidden;
+  max-width: 8.5rem;
 }
 main .companies-sec #openDoor {
-    display: none;
+  display: none;
 }
-
-/* Auction section */
 main .auction-sec {
-    width: 85%;
-    margin: 0 auto;
-    text-align: left;
+  width: 85%;
+  margin: 0 auto;
+  text-align: left;
 }
 main .auction-sec h2,
 main .auction-sec p {
-    width: 90%;
+  width: 90%;
 }
 main .auction-sec h2 {
-    font-size: 40px;
-    font-weight: 500;
+  font-size: 40px;
+  font-weight: 500;
 }
 main .auction-sec p {
-    font-size: 20px;
-    color: #555555;
+  font-size: 20px;
+  color: #555555;
 }
 main .auction-sec p span {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 main .auction-sec p span:hover {
-    opacity: 75%;
-    cursor: pointer;
+  opacity: 75%;
+  cursor: pointer;
 }
 main .auction-sec .flex-wrap {
-    display: flex;
-    gap: 3rem;
-    overflow: scroll;
+  display: flex;
+  gap: 3rem;
+  overflow: scroll;
 }
 main .auction-sec .flex-wrap .auction-item {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    background-color: #eeeeee;
-    border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  background-color: #eeeeee;
+  border-radius: 15px;
 }
 main .auction-sec .flex-wrap .auction-item .item-desc {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 2rem);
-    align-items: center;
-    padding: 1rem 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 2rem);
+  align-items: center;
+  padding: 1rem 1.5rem;
 }
 main .auction-sec .flex-wrap .auction-item .item-desc .right {
-    text-align: right;
+  text-align: right;
 }
 main .auction-sec .flex-wrap .auction-item .item-desc img {
-    position: relative;
-    right: 0.25rem;
-    top: 0.25rem;
+  position: relative;
+  right: 0.25rem;
+  top: 0.25rem;
 }
 main .auction-sec .flex-wrap .auction-item .item-desc h5 {
-    color: #ff8139;
-    font-size: 12px !important;
-    font-weight: 500 !important;
-    text-transform: uppercase;
+  color: #ff8139;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  text-transform: uppercase;
 }
 main .auction-sec .flex-wrap .auction-item .item-desc h4 {
-    font-size: 20px;
-    font-weight: 500;
+  font-size: 20px;
+  font-weight: 500;
 }
 main .auction-sec .flex-wrap .auction-item .item-desc .grey {
-    color: #777777;
-    font-size: 18px;
-    font-weight: 400;
+  color: #777777;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 footer {
-    text-align: left;
-    width: 85%;
-    margin: 0 auto;
-    color: #555555;
+  text-align: left;
+  width: 85%;
+  margin: 0 auto;
+  color: #555555;
 }
 footer .socials img {
-    width: 48%;
+  width: 48%;
 }
 footer .socials h3 {
-    font-size: 20px;
-    font-weight: 400;
-    padding-top: 0.5rem;
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 0.5rem;
 }
 footer .socials .links i {
-    padding: 0.35rem;
-    font-size: 18px;
-    color: #999999;
+  padding: 0.35rem;
+  font-size: 18px;
+  color: #999999;
 }
 footer .socials .links i:hover {
-    opacity: 75%;
+  opacity: 75%;
 }
 footer .menu-flex {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 2.5rem 0 1.5rem 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2.5rem 0 1.5rem 0;
 }
 footer .menu-flex .menu-item {
-    padding-right: 5rem;
+  padding-right: 5rem;
 }
 footer .menu-flex .menu-item h3 {
-    padding-bottom: 0.4rem;
-    font-weight: 700;
-    font-size: 16px;
-    text-transform: uppercase;
-    letter-spacing: 0.15rem;
+  padding-bottom: 0.4rem;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
 }
 footer .menu-flex .menu-item h4 {
-    line-height: 0.75rem;
-    font-weight: 400;
-    font-size: 20px;
+  line-height: 0.75rem;
+  font-weight: 400;
+  font-size: 20px;
 }
 footer .menu-flex .menu-item h4:hover {
-    cursor: pointer;
-    opacity: 75%;
+  cursor: pointer;
+  opacity: 75%;
 }
 footer .copyright h3 {
-    color: #999999;
-    font-size: 20px;
-    font-weight: 400;
+  color: #999999;
+  font-size: 20px;
+  font-weight: 400;
 }
 footer .copyright #copyright-h3-desktop {
-    display: none;
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
-    header nav {
-        padding-bottom: 8rem;
-    }
-    header nav img {
-        width: 15%;
-    }
-    header nav ul {
-        display: initial;
-    }
-    header nav ul a {
-        color: #555555;
-        text-decoration: none;
-        font-size: 20px;
-        padding: 1rem;
-    }
-    header nav ul a:last-child {
-        color: #ff3998;
-    }
-    header nav ul a:hover {
-        opacity: 75%;
-    }
-    header nav ul a li {
-        display: inline;
-    }
-    header nav span {
-        display: none;
-    }
-
-    /* Launch top and bottom sections */
-    main .launch-sec {
-        padding-bottom: 8rem;
-    }
-    main .launch-sec.top h1 {
-        width: 40%;
-        font-size: 96px;
-        font-weight: 900;
-        margin: 0;
-    }
-    main .launch-sec.top p {
-        width: 35%;
-    }
-    main .launch-sec.top img {
-        float: right;
-        width: 38%;
-        top: 12rem;
-        left: 55rem;
-    }
-    main .launch-sec.bottom {
-        width: 85%;
-    }
-    main .launch-sec.bottom .wrapper {
-        width: 100%;
-        padding: 1.5rem 0 3rem 0;
-    }
-    main .launch-sec.bottom .wrapper img {
-        position: relative;
-        float: right;
-        width: 12%;
-        left: -18rem;
-        top: -1.6rem;
-    }
-    main .launch-sec.bottom .wrapper h1 {
-        font-weight: 900;
-        font-size: 56px;
-    }
-    main .launch-sec.bottom .wrapper p {
-        width: 35%;
-    }
-
-    /* Promo section */
-    main .promo-sec {
-        width: 85%;
-        margin: 0 auto;
-        background-size: cover;
-        border-radius: 15px;
-        padding-bottom: 2rem;
-    }
-    main .promo-sec div {
-        width: 90%;
-    }
-
-    /* Companies section */
-    main .companies-sec {
-        padding: 5rem 0;
-    }
-    main .companies-sec .wrap {
-        overflow: initial;
-        max-width: initial;
-    }
-    main .companies-sec #openDoor {
-        display: initial;
-    }
-
-    /* Auction section and footer */
-    main .auction-sec .flex-wrap {
-        padding: 2rem 0;
-        overflow: initial;
-    }
-    footer .desktop-wrap {
-        padding-top: 2rem;
-        display: flex;
-        justify-content: space-between;
-    }
-    footer .desktop-wrap .socials img {
-        width: 85%;
-    }
-    footer .desktop-wrap .menu-flex {
-        width: 70%;
-        padding: 0;
-        justify-content: flex-end;
-    }
-    footer .desktop-wrap .menu-flex .menu-item {
-        padding: 0 5.5rem 0 0;
-    }
-    footer .copyright {
-        padding: 3.5rem 0 2.5rem 0;
-        display: flex;
-        justify-content: space-between;
-    }
-    footer .copyright #copyright-h3-desktop {
-        display: initial;
-    }
-} /*# sourceMappingURL=style.css.map */
+  header nav {
+    padding-bottom: 8rem;
+  }
+  header nav img {
+    width: 15%;
+  }
+  header nav ul {
+    display: initial;
+  }
+  header nav ul a {
+    color: #555555;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 1rem;
+  }
+  header nav ul a:last-child {
+    color: #ff3998;
+  }
+  header nav ul a:hover {
+    opacity: 75%;
+  }
+  header nav ul a li {
+    display: inline;
+  }
+  header nav span {
+    display: none;
+  }
+  main .launch-sec {
+    padding-bottom: 8rem;
+  }
+  main .launch-sec.top h1 {
+    width: 40%;
+    font-size: 96px;
+    font-weight: 900;
+    margin: 0;
+  }
+  main .launch-sec.top p {
+    width: 35%;
+  }
+  main .launch-sec.top img {
+    float: right;
+    width: 38%;
+    top: 12rem;
+    left: 55rem;
+  }
+  main .launch-sec.bottom {
+    width: 85%;
+  }
+  main .launch-sec.bottom .wrapper {
+    width: 100%;
+    padding: 1.5rem 0 3rem 0;
+  }
+  main .launch-sec.bottom .wrapper img {
+    position: relative;
+    float: right;
+    width: 12%;
+    left: -18rem;
+    top: -1.6rem;
+  }
+  main .launch-sec.bottom .wrapper h1 {
+    font-weight: 900;
+    font-size: 56px;
+  }
+  main .launch-sec.bottom .wrapper p {
+    width: 35%;
+  }
+  main .promo-sec {
+    width: 85%;
+    margin: 0 auto;
+    background-size: cover;
+    border-radius: 15px;
+    padding-bottom: 2rem;
+  }
+  main .promo-sec div {
+    width: 90%;
+  }
+  main .companies-sec {
+    padding: 5rem 0;
+  }
+  main .companies-sec .wrap {
+    overflow: initial;
+    max-width: initial;
+  }
+  main .companies-sec #openDoor {
+    display: initial;
+  }
+  main .auction-sec .flex-wrap {
+    padding: 2rem 0;
+    overflow: initial;
+  }
+  footer .desktop-wrap {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer .desktop-wrap .socials img {
+    width: 85%;
+  }
+  footer .desktop-wrap .menu-flex {
+    width: 70%;
+    padding: 0;
+    justify-content: flex-end;
+  }
+  footer .desktop-wrap .menu-flex .menu-item {
+    padding: 0 5.5rem 0 0;
+  }
+  footer .copyright {
+    padding: 3.5rem 0 2.5rem 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer .copyright #copyright-h3-desktop {
+    display: initial;
+  }
+}/*# sourceMappingURL=style.css.map */
