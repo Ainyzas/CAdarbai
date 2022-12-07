@@ -109,5 +109,8 @@
         case car == "Audi" || car == "Bentley" || car == "Bugatti" || car == "Volkswagen" || car == "Skoda" || car == "Porsche":
             console.log("Priklauso Volkswagen Group");
             break;
+        default:
+            console.log("Nepriklauso jokiai grupei");
+            break;
     }
 }
