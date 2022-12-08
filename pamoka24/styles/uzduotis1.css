@@ -5,4 +5,7 @@ body {
     text-align: center;
     color: #fff;
     background: #000015;
+}
+body ol {
+    list-style-position: inside;
 } /*# sourceMappingURL=uzduotis1.css.map */

@@ -5,4 +5,8 @@ body {
     text-align: center;
     color: #fff;
     background: #000015;
+
+    ol {
+        list-style-position: inside;
+    }
 }
