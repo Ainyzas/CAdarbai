@@ -1,6 +1,6 @@
 // Task 1
 {
-    const name = "John";
+    const name = "Ainas";
     let i = 3;
     while (i > 0) {
         console.log(name);
@@ -12,7 +12,7 @@
 
 {
     let combo = "";
-    const name = "John";
+    const name = "Ainas";
     let times = 3;
     do {
         combo += name;
@@ -24,11 +24,11 @@
 // Task 3
 
 {
-    Math.cos(0);
+    console.log(Math.cos(0));
 
-    Math.floor(Math.random() * 5) + 1;
+    console.log(Math.floor(Math.random() * 5) + 1);
 
-    Math.floor(Math.random() * (12 - 5 + 1)) + 5;
+    console.log(Math.floor(Math.random() * (12 - 5 + 1)) + 5);
 
     const randomNumber = Math.floor(Math.random() * 5) + 1;
     if (randomNumber === 1) {
