@@ -1,0 +1,19 @@
+body {
+    font-size: 28px;
+    font-weight: bold;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    background: #000015;
+}
+
+form {
+    font-size: 16px;
+}
+
+div {
+    width: 65%;
+    margin: 0 auto;
+    text-align: left;
+}

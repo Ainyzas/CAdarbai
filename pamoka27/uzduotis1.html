@@ -11,17 +11,38 @@
             referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.css" />
         <link rel="stylesheet" href="styles/uzduotis1.css" />
-        <title>JavaScript Functions and Events</title>
+        <title>JavaScript Form Tasks</title>
     </head>
     <body>
         <a href="https://alexjonesavi.github.io/CAdarbai">Gryžti į pagrindinį puslapį</a>
+
         <br />
-        <button type="button" class="btn">hello</button>
-        <p></p>
-        <button type="button" class="btn" id="one">1</button>
-        <button type="button" class="btn" id="two">2</button>
-        <button type="button" class="btn" id="three">3</button>
-        <h1>Nespauskite mygtuko</h1>
+
+        <form id="L">
+            <input type="number" id="Linput" placeholder="size" />
+        </form>
+        <div id="Ltext"></div>
+
+        <br />
+
+        <form id="C">
+            <input type="number" id="Cinput" placeholder="size" />
+        </form>
+        <div id="Ctext"></div>
+
+        <br />
+
+        <form id="numbers">
+            <input type="number" id="oneNum" placeholder="number 1" />
+            <input type="number" id="twoNum" placeholder="number 2" />
+            <button type="submit">Submit</button>
+        </form>
+
+        <br />
+
+        <form id="guess">
+            <input type="number" id="guessNum" placeholder="guess" />
+        </form>
         <script defer src="uzduotis1.js"></script>
     </body>
 </html>
