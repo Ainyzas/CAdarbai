@@ -1,0 +1,12 @@
+main {
+    display: flex;
+    gap: 5rem;
+}
+
+form {
+    padding: 1rem;
+}
+
+textarea {
+    vertical-align: top;
+}
