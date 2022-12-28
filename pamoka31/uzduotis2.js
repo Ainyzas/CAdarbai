@@ -12,15 +12,19 @@
     const ring = document.querySelector(".ring");
 
     let interval;
-    let complete = false;
+    let complete = true;
+    let start = true;
 
     function toggleCountdown() {
         if (startButton.textContent === "start") {
             if (complete == true) {
                 complete = false;
-                ring.classList.toggle("ending");
-                minutesField.value = "0" + 5;
-                secondsField.value = "0" + 5;
+                if (start == false) {
+                    ring.classList.toggle("ending");
+                }
+                start = false;
+                minutesField.value = prompt("How many minutes?");
+                secondsField.value = prompt("How many seconds?");
             }
             startButton.textContent = "stop";
             interval = setInterval(countdown, 1000);
