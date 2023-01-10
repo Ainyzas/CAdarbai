@@ -1,8 +1,19 @@
 body {
-    font-size: 32px;
     font-weight: bold;
     margin: 0 auto;
     text-align: center;
     color: #fff;
     background: #000015;
+}
+
+form {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+form input,
+form button {
+    margin: 0.5rem;
 }

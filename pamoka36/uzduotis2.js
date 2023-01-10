@@ -111,3 +111,8 @@
     console.log(motorcycle.getAge());
     console.log(motorcycle.getWheelsNumber());
 }
+
+// Task 5
+
+{
+}
