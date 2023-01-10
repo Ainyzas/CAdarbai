@@ -37,12 +37,12 @@
             return `Film: ${this.name}\nRelease: ${this.year}\nDirector: ${this.director}`;
         }
         getProfit() {
-            return `Total profit: $${this.income - this.budget}`;
+            return this.income > this.budget ? `Total profit: $${this.income - this.budget}` : `Total loss: $${this.budget - this.income}`;
         }
     }
     console.log("\nTask 2:");
     let movie = new Movie("Avatar", 2022, "James Cameron", 150000000, 1000000000);
-    let movie2 = new Movie("Avatar Sequel", 2025, "James Cameron", 400000000, 1500000000);
+    let movie2 = new Movie("Avatar Sequel", 2025, "James Cameron", 400000000, 15000000);
     console.log(movie.getIntroduction());
     console.log(movie.getProfit());
     console.log("\n");
@@ -68,6 +68,7 @@
     console.log("\nTask 3:");
     let rabbit = new Rabbit("White Rabbit");
     console.log(rabbit);
+    console.log(rabbit.created);
 }
 
 // Task 4
