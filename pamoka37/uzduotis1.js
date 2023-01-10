@@ -57,7 +57,6 @@ Add an info text field below each car to display its speed and distance traveled
     };
 
     const pace = () => {
-        console.clear();
         cars.forEach(car => {
             Math.floor(Math.random() * 15) > 2 ? car.accelerate(Math.floor(Math.random() * 6) + 1) : car.slowdown(Math.floor(Math.random() * 3) + 1);
         });
