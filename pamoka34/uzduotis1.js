@@ -63,7 +63,3 @@
         return newArray;
     }
 }
-
-// Task 4
-{
-}

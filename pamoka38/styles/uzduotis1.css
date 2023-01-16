@@ -1,7 +1,16 @@
 body {
-    font-weight: bold;
     margin: 0 auto;
     text-align: center;
-    color: #fff;
-    background: #000015;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 25%;
+}
+
+td,
+th {
+    border: 1px solid black;
+    text-align: center;
 }
