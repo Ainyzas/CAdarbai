@@ -118,7 +118,6 @@ const body = document.querySelector("body");
             console.log(fullResponse);
             const fetchMeme = await fetch(memeUrl);
             const memeResponse = await fetchMeme.json();
-            console.log(memeResponse.imgUrl);
             const meme = document.createElement("img");
             meme.setAttribute("src", memeResponse.imgUrl);
             body.append(meme);
