@@ -113,7 +113,7 @@ const body = document.querySelector("body");
                 }
             });
 
-            fullResponse += `Amount of attendees who selected plus one option: ${countPlusOne}\nAmount of total attendees: ${countAttending}`;
+            fullResponse += `Amount of attendees who selected plus one option: ${countPlusOne}\nAmount of total attendees: ${countAttending + countPlusOne}`;
 
             console.log(fullResponse);
             const fetchMeme = await fetch(memeUrl);
