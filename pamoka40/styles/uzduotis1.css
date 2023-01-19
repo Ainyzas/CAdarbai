@@ -8,6 +8,8 @@ body {
 table {
     border: 1px solid white;
     border-collapse: collapse;
+    margin-top: 4rem;
+    width: 50%;
 }
 
 td,
