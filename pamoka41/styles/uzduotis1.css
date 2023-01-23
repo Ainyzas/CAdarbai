@@ -1,0 +1,20 @@
+body {
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    background: #000015;
+}
+
+table {
+    border: 1px solid white;
+    border-collapse: collapse;
+    margin-top: 4rem;
+    width: 50%;
+}
+
+td,
+th {
+    border: 1px solid white;
+    text-align: center;
+    padding: 1rem;
+}
