@@ -13,7 +13,6 @@ const getPartyMembers = async () => {
 };
 
 //! POST
-//after POST run line below:
 const postGuest = async guest => {
     try {
         const response = await fetch(BASE_URL, {
