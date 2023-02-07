@@ -1,5 +1,7 @@
 import express from "express";
-import tasks from "../database/tasks1.js";
+import route1 from "./route1/route.js";
 const router = express.Router();
+
+router.use(route1);
 
 export default router;
