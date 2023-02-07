@@ -17,6 +17,9 @@ router.post("/names", (req, res) => {
             name: inputName,
             surname: inputSurname,
         });
+        res.json({
+            success: true,
+        });
     }
 });
 
