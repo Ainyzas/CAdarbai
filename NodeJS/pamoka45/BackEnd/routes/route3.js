@@ -7,13 +7,16 @@ router.get("/names", (req, res) => {
 });
 
 router.post("/names", (req, res) => {
-    const { inputName } = req.body;
-    if (!inputName) {
+    const { inputName, inputSurname } = req.body;
+    if (!inputName && !inputSurname) {
         res.status(400);
         console.log("error");
     } else {
         res.status(200);
-        tasks.push(inputName);
+        tasks.push({
+            name: inputName,
+            surname: inputSurname,
+        });
     }
 });
 

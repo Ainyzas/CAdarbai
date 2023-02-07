@@ -14,7 +14,7 @@ async function getNames() {
 
 function displayName(name) {
     const listName = document.createElement("li");
-    listName.textContent = name;
+    listName.textContent = name.name + " " + name.surname;
     list.append(listName);
 }
 

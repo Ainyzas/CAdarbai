@@ -1,3 +1,9 @@
-const names = ["Ainas", "Jonas", "Rycka", "Mantas", "Matas", "Ieva", "Laura"];
+const names = [
+    { name: "Ainas", surname: "Puidokas" },
+    { name: "Jonas", surname: "Rudnickas" },
+    { name: "Rycka", surname: "Taduks" },
+    { name: "Mantas", surname: "Peseckas" },
+    { name: "Matas", surname: "Kenstavicius" },
+];
 
 export default names;
