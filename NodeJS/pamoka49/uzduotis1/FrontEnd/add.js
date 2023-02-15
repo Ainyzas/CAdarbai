@@ -5,7 +5,7 @@ const typeSelect = document.querySelector('#type-selection');
 
 document.querySelector('button').addEventListener('click', async () => {
   const name = nameInput.value;
-  const age = ageInput.value;
+  const age = +ageInput.value;
   const type = typeSelect.value;
 
   const res = await fetch(POST_ENDPOINT, {
