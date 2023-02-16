@@ -63,19 +63,11 @@ export async function getAllProducts(req, res) {
 
 export async function getCategoryValue(req, res) {
   try {
-    let response = [];
+    const response = {};
     for await (const category of Category.find()) {
-      let value = 0;
       const oneCategory = await category.populate('products', 'price');
-      for await (const product of oneCategory.products) {
-        value += product.price;
-      }
-      const name = oneCategory.name;
-      const data = {
-        name,
-        value,
-      };
-      response.push(data);
+      const value = oneCategory.products.reduce((total, product) => total + product.price, 0);
+      response[oneCategory.name] = value;
     }
     res.json(response);
   } catch (e) {
