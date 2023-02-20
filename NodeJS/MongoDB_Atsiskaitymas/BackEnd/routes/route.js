@@ -5,6 +5,6 @@ const router = express.Router();
 
 router.post('/memberships', createNewMembership);
 
-router.post('/users', addNewUser);
+router.post('/users/:membershipId', addNewUser);
 
 export default router;
