@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+  --main-font-color: #716eeb;
+  --secondary-font-color: #8d8d8d;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+/* Header with Nav Bar */
+
+header {
+  background-color: white;
+}
+
+nav {
+  text-align: center;
+  padding: 1rem;
+}
+
+nav a {
+  color: var(--secondary-font-color);
+  margin: auto 2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a.current {
+  color: var(--main-font-color);
+}
+
+/* Main Body */
+
+h1 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+h3 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#flex-wrap {
+  width: 80%;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#flex-wrap div {
+  width: 70%;
+}
+
+#flex-wrap a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  background-color: var(--main-font-color);
+  padding: 0.6rem 1.2rem;
+  border: 1px solid var(--main-font-color);
+  border-radius: 5px;
+}
+
+/* Footer */
+
+footer {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  bottom: 1rem;
+}

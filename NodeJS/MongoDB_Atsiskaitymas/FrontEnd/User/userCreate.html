@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/create.css" />
+    <title>Create New User</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="../Membership/membershipView.html">Memberships</a>
+        <a class="current" href="./userView.html">Users</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Create User</h1>
+      <div id="form-wrapper">
+        <form class="create-user">
+          <div id="grid-wrap">
+            <div>
+              <label for="name">First Name <i class="fa-solid fa-asterisk"></i></label>
+              <br />
+              <input type="text" id="name" placeholder="First Name" required="true" />
+            </div>
+            <div>
+              <label for="surname">Last Name <i class="fa-solid fa-asterisk"></i></label>
+              <br />
+              <input type="text" id="surname" placeholder="Last Name" required="true" />
+            </div>
+            <div id="email-div">
+              <label for="email">Email Address <i class="fa-solid fa-asterisk"></i></label>
+              <br />
+              <input type="email" id="email" placeholder="Email" required="true" />
+            </div>
+            <div>
+              <label for="membership-select">Change Membership</label>
+              <br />
+              <select id="membership-select">
+                <option value="">--Choose an option--</option>
+              </select>
+            </div>
+          </div>
+          <div class="buttons">
+            <a href="./userView.html">Cancel</a>
+            <button type="submit">New User</button>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <h3>Copyright ©2021 Membership Manager</h3>
+    </footer>
+  </body>
+</html>
