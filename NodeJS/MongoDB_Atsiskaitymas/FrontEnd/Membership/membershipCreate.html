@@ -28,7 +28,7 @@
         <form class="create-membership">
           <label>Name <input type="text" id="name" placeholder="Name" required="true" /></label>
           <br />
-          <label>Membership Price <input type="number" id="price" placeholder="$" required="true" /></label>
+          <label>Membership Price <input type="number" id="price" placeholder="$" step="0.01" required="true" /></label>
           <br />
           <label>Description<textarea id="description" cols="40" rows="8"></textarea></label>
           <div class="buttons">
@@ -42,5 +42,6 @@
     <footer>
       <h3>Copyright ©2021 Membership Manager</h3>
     </footer>
+    <script defer src="membershipCreate.js"></script>
   </body>
 </html>

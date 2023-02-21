@@ -11,6 +11,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/view.css" />
     <title>View Users</title>
   </head>
   <body>
@@ -27,12 +28,13 @@
         <a href="./userCreate.html">+ New User</a>
       </div>
 
-      <h2>Sorting By Name: ASC</h2>
+      <h2>Sorting By Name: <span id="order">ASC</span></h2>
       <div id="users"></div>
     </main>
 
     <footer>
       <h3>Copyright ©2021 Membership Manager</h3>
     </footer>
+    <script defer src="userView.js"></script>
   </body>
 </html>

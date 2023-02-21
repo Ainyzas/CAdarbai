@@ -22,8 +22,9 @@ export async function createNewMembership(req, res) {
 
 export async function addNewUser(req, res) {
   try {
-    const { membershipId } = req.params;
-    const { name, surname, email } = req.body;
+    const { name, surname, email, membershipSelect } = req.body;
+
+    const membershipId = await Membership.findOne({ name: membershipSelect });
 
     const user = await User.create({
       name,
@@ -37,6 +38,39 @@ export async function addNewUser(req, res) {
     membership.save();
 
     res.json(user);
+  } catch (e) {
+    res.status(500).json({ e });
+  }
+}
+
+export async function getAllMemberships(req, res) {
+  try {
+    const memberships = await Membership.find().populate('users');
+
+    res.json(memberships);
+  } catch (e) {
+    res.status(500).json({ e });
+  }
+}
+
+export async function getAllUsers(req, res) {
+  try {
+    const { order } = req.query;
+    const users = await User.find().populate('membershipId', 'name').sort({ name: order });
+
+    res.json(users);
+  } catch (e) {
+    res.status(500).json({ e });
+  }
+}
+
+export async function deleteMembership(req, res) {
+  try {
+    const { id } = req.query;
+
+    const membership = await Membership.findByIdAndDelete(id);
+
+    res.json(membership);
   } catch (e) {
     res.status(500).json({ e });
   }
