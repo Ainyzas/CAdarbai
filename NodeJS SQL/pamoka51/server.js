@@ -3,7 +3,6 @@ import express from 'express';
 const pool = pg.Pool;
 
 const PORT = 3000;
-const connectionString = 'postgres://jjlswkhh:cCQj4_i8cfVUTLHebjyzl0CsufKizPBK@mouse.db.elephantsql.com/jjlswkhh';
 
 const PGpool = new pool({
   connectionString,
