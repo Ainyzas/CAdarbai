@@ -1,8 +1,12 @@
 import pg from 'pg';
 import express from 'express';
-const pool = pg.Pool;
+import dotenv from 'dotenv';
 
-const PORT = 3000;
+dotenv.config();
+const { PORT } = process.env;
+const { connectionString } = process.env;
+
+const pool = pg.Pool;
 
 const PGpool = new pool({
   connectionString,
