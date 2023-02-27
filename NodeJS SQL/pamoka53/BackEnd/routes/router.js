@@ -1,5 +1,6 @@
 import express from 'express';
 import {
+  getProductsPaginated,
   getAllProducts,
   getProductById,
   createNewProduct,
@@ -8,6 +9,8 @@ import {
   routeNotFound,
 } from '../controllers/controller.js';
 const router = express.Router();
+
+router.get('/products/paginate', getProductsPaginated);
 
 router.get('/products', getAllProducts);
 

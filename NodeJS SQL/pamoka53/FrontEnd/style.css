@@ -1,0 +1,20 @@
+#flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 1rem;
+}
+
+#flex-wrap div {
+  text-align: center;
+  width: 33%;
+  border: 1px solid gray;
+}
+
+#buttons {
+  text-align: center;
+}
+
+button {
+  padding: 0.75rem;
+  margin: 0.5rem;
+}
