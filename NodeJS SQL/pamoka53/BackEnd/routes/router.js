@@ -8,9 +8,10 @@ import {
   deleteProductById,
   routeNotFound,
 } from '../controllers/controller.js';
+import { middlewareTest } from '../middleware/middleware.js';
 const router = express.Router();
 
-router.get('/products/paginate', getProductsPaginated);
+router.get('/products/paginate', middlewareTest, getProductsPaginated);
 
 router.get('/products', getAllProducts);
 
