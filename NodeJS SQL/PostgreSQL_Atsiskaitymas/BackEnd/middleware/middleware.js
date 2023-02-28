@@ -1,0 +1,21 @@
+import DB from '../db/db.js';
+
+export function middlewareTest(req, res, next) {
+  if (!req.body.title || !req.body.image || !req.body.price || !req.body.numberplates) {
+    res.json({
+      error: 'Title, image, price, numberplates fields need to be filled',
+    });
+  } else {
+    next();
+  }
+}
+
+export async function checkForId(req, res, next) {
+  const { id } = req.params;
+  const car = await DB.query(`Select id from cars where id=${id}`);
+  if (car.rows.length === 0) {
+    res.status(404).json({ error: 'Id is invalid' });
+  } else {
+    next();
+  }
+}
