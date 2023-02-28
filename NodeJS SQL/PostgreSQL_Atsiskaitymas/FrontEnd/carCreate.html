@@ -8,5 +8,21 @@
     <script src="carCreate.js" type="module"></script>
     <title>Create A New Car</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav>
+        <a href="./carView.html">CARS</a>
+        <a href="./carCreate.html">ADD CAR</a>
+      </nav>
+    </header>
+    <main>
+      <form>
+        <label for="name">Car Name: <input type="text" id="name" /></label>
+        <label for="image">Car URL: <input type="text" id="image" /></label>
+        <label for="price">Car Price: <input type="number" id="price" /></label>
+        <label for="numberplate">Number Plate: <input type="text" id="numberplate" /></label>
+        <button type="submit">Add New Car</button>
+      </form>
+    </main>
+  </body>
 </html>

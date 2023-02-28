@@ -5,6 +5,8 @@ export function middlewareTest(req, res, next) {
     res.json({
       error: 'Title, image, price, numberplates fields need to be filled',
     });
+  } else if (isNaN(req.body.price) === true || req.body.numberplates.length > 7) {
+    res.json({ error: 'price is invalid number or numberplate field length is too long' });
   } else {
     next();
   }
@@ -12,10 +14,14 @@ export function middlewareTest(req, res, next) {
 
 export async function checkForId(req, res, next) {
   const { id } = req.params;
-  const car = await DB.query(`Select id from cars where id=${id}`);
-  if (car.rows.length === 0) {
-    res.status(404).json({ error: 'Id is invalid' });
+  if (!isNaN(id)) {
+    const car = await DB.query(`Select id from cars where id=${id}`);
+    if (car.rows.length === 0) {
+      res.status(404).json({ error: 'Id is invalid' });
+    } else {
+      next();
+    }
   } else {
-    next();
+    res.status(404).json({ error: 'Id is not a number' });
   }
 }

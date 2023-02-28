@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+  --main-font-color: #716eeb;
+  --secondary-font-color: #8d8d8d;
+}
+
+* {
+  margin: 0;
+  padding: 0.25rem;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+  text-align: center;
+  padding: 1rem;
+}
+
+nav a {
+  color: var(--secondary-font-color);
+  margin: auto 2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.flex-wrap {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-wrap div {
+  border: 1px solid var(--secondary-font-color);
+  box-shadow: var(--secondary-font-color) 0 0 0.5px;
+  border-radius: 5px;
+  margin: 0.5rem;
+  text-align: center;
+  width: 30%;
+}
+
+img {
+  max-width: 75%;
+  max-height: 9rem;
+}
+
+form {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: var(--secondary-font-color) 0 0 3px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+  padding-bottom: 0.5rem;
+}
+
+form label input {
+  padding: 0.4rem;
+  border: 1px solid var(--secondary-font-color);
+  border-radius: 5px;
+  width: 75%;
+}
+
+form button {
+  background-color: white;
+  margin-top: 2rem;
+  border: 1px solid var(--secondary-font-color);
+  border-radius: 5px;
+}

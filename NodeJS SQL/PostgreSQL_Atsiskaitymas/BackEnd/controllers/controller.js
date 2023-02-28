@@ -22,11 +22,12 @@ export async function getCarById(req, res) {
 export async function createNewCar(req, res) {
   try {
     const { title, image, price, numberplates } = req.body;
+    const carObj = { title, image, price, numberplates };
     const car = await DB.query(`INSERT INTO cars
       (title, image, price, numberplates)
       VALUES('${title}', '${image}', ${price}, '${numberplates}');
       `);
-    res.json(car);
+    res.json(carObj);
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
