@@ -1,4 +1,5 @@
 const form = document.querySelector('form');
+const brandInput = document.querySelector('#brand');
 const nameInput = document.querySelector('#name');
 const imageInput = document.querySelector('#image');
 const priceInput = document.querySelector('#price');
@@ -9,13 +10,16 @@ const URL = 'http://127.0.0.1:3000/cars';
 form.addEventListener('submit', async (e) => {
   try {
     e.preventDefault();
+    if (!nameInput.value || !imageInput.value || isNaN(priceInput.value) || plateInput.value.length > 7) {
+      throw new Error('Please fill all fields correctly');
+    }
     const res = await fetch(URL, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        title: nameInput.value,
+        title: `${brandInput.value} ${nameInput.value}`,
         image: imageInput.value,
         price: priceInput.value,
         numberplates: plateInput.value,
@@ -25,6 +29,6 @@ form.addEventListener('submit', async (e) => {
     console.log(JSON.stringify(sentData));
     window.location.assign('./carView.html');
   } catch (error) {
-    console.log(error);
+    alert(error.message);
   }
 });

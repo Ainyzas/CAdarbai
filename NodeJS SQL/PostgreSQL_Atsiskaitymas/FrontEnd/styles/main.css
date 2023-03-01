@@ -63,6 +63,15 @@ form label {
   padding-bottom: 0.5rem;
 }
 
+form #brand-label {
+  display: inline;
+}
+
+form #brand {
+  width: 20%;
+  margin-left: 5.9rem;
+}
+
 form label input {
   padding: 0.4rem;
   border: 1px solid var(--secondary-font-color);

@@ -17,10 +17,63 @@
     </header>
     <main>
       <form>
-        <label for="name">Car Name: <input type="text" id="name" /></label>
-        <label for="image">Car URL: <input type="text" id="image" /></label>
-        <label for="price">Car Price: <input type="number" id="price" /></label>
-        <label for="numberplate">Number Plate: <input type="text" id="numberplate" /></label>
+        <label for="brand" id="brand-label"
+          >Car Brand:<select id="brand">
+            <optgroup label="Japanese Cars">
+              <option value="Mazda">Mazda</option>
+              <option value="Toyota">Toyota</option>
+              <option value="Lexus">Lexus</option>
+              <option value="Honda">Honda</option>
+              <option value="Acura">Acura</option>
+              <option value="Nissan">Nissan</option>
+              <option value="Subaru">Subaru</option>
+              <option value="Mitsubishi">Mitsubishi</option>
+            </optgroup>
+            <optgroup label="Korean Cars">
+              <option value="Hyundai">Hyundai</option>
+              <option value="Kia">Kia</option>
+            </optgroup>
+            <optgroup label="German Cars">
+              <option value="Opel">Opel</option>
+              <option value="Volkswagen">Volkswagen</option>
+              <option value="Audi">Audi</option>
+              <option value="Mercedes">Mercedes</option>
+              <option value="BMW">BMW</option>
+              <option value="Porsche">Porsche</option>
+            </optgroup>
+            <optgroup label="Italian Cars">
+              <option value="Alfa Romeo">Alfa Romeo</option>
+              <option value="Ferrari">Ferrari</option>
+              <option value="Lamborghini">Lamborghini</option>
+              <option value="Maserati">Maserati</option>
+              <option value="Fiat">Fiat</option>
+            </optgroup>
+            <optgroup label="French Cars">
+              <option value="Peugeot">Peugeot</option>
+              <option value="Renault">Renault</option>
+              <option value="Citroen">Citroen</option>
+              <option value="Bugatti">Bugatti</option>
+            </optgroup>
+            <optgroup label="British Cars">
+              <option value="Bentley">Bentley</option>
+              <option value="Jaguar">Jaguar</option>
+              <option value="McLaren">McLaren</option>
+              <option value="Rolls-Royce">Rolls-Royce</option>
+              <option value="Land Rover">Land Rover</option>
+            </optgroup>
+            <optgroup label="American Cars">
+              <option value="Tesla">Tesla</option>
+              <option value="Ford">Ford</option>
+              <option value="Chevrolet">Chevrolet</option>
+              <option value="Dodge">Dodge</option>
+              <option value="Jeep">Jeep</option>
+            </optgroup>
+          </select></label
+        >
+        <label for="name">Model Name:<input type="text" id="name" /></label>
+        <label for="image">Car URL:<input type="text" id="image" /></label>
+        <label for="price">Car Price:<input type="number" id="price" /></label>
+        <label for="numberplate">Number Plate:<input type="text" id="numberplate" /></label>
         <button type="submit">Add New Car</button>
       </form>
     </main>
